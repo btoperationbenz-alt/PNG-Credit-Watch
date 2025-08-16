@@ -31,7 +31,7 @@ export default function OfferCard({
   typeIcon: TypeIcon = Gamepad2,
 }: OfferCardProps) {
   return (
-    <Card className="flex flex-col group overflow-hidden transition-all duration-300 border-2 border-transparent bg-card/80 backdrop-blur-sm rounded-xl hover:shadow-primary/20 hover:shadow-lg hover:-translate-y-1 hover:border-primary/50">
+    <Card className="flex flex-col group overflow-hidden transition-all duration-300 border-2 border-transparent bg-card/80 backdrop-blur-sm rounded-xl hover:shadow-primary/20 hover:shadow-lg hover:-translate-y-1">
         <div className="relative h-40 w-full">
             <Image
                 src={offer.logoUrl}
