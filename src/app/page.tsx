@@ -88,62 +88,6 @@ export default function PngCreditProPage() {
           </p>
         </section>
 
-        <div className="p-4 md:p-6 rounded-lg border border-border bg-card/50 mb-8 shadow-md">
-            <div className="flex items-center gap-2 mb-4">
-                <Filter className="h-5 w-5 text-accent" />
-                <h3 className="text-xl font-semibold font-headline">Refine Your Search</h3>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                <div className="relative">
-                    <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-                    <Input
-                        placeholder="Search by provider or title..."
-                        className="pl-10 bg-input border-border focus:border-primary focus:ring-primary"
-                        value={searchTerm}
-                        onChange={(e) => setSearchTerm(e.target.value)}
-                    />
-                </div>
-                <Select value={selectedType} onValueChange={setSelectedType}>
-                    <SelectTrigger className="bg-input border-border focus:border-primary focus:ring-primary">
-                        <SelectValue placeholder="Filter by type" />
-                    </SelectTrigger>
-                    <SelectContent>
-                        <SelectItem value="All">All Offer Types</SelectItem>
-                        {offerTypes.map(type => (
-                            <SelectItem key={type} value={type}>
-                                {type}
-                            </SelectItem>
-                        ))}
-                    </SelectContent>
-                </Select>
-                <Select value={selectedPromoLength} onValueChange={setSelectedPromoLength}>
-                    <SelectTrigger className="bg-input border-border focus:border-primary focus:ring-primary">
-                        <SelectValue placeholder="Filter by duration" />
-                    </SelectTrigger>
-                    <SelectContent>
-                        {promoLengths.map(length => (
-                            <SelectItem key={length} value={length}>
-                                {length === 'Any' ? 'Any Duration' : length}
-                            </SelectItem>
-                        ))}
-                    </SelectContent>
-                </Select>
-                 <Button
-                    variant="outline"
-                    onClick={() => setIsSheetOpen(true)}
-                    className="relative bg-card/50 border-accent/50 hover:bg-accent/20 hover:border-accent"
-                  >
-                    <Bookmark className="mr-2 h-4 w-4" />
-                    Saved Offers
-                    {savedOfferIds.size > 0 && (
-                      <span className="absolute -top-2 -right-2 flex h-6 w-6 items-center justify-center rounded-full bg-accent text-accent-foreground text-xs font-bold animate-pulse">
-                        {savedOfferIds.size}
-                      </span>
-                    )}
-                  </Button>
-            </div>
-        </div>
-
         {offers.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {offers.map(offer => (
