@@ -103,8 +103,7 @@ export default function PngCreditProPage() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"/>
                 <div className="absolute inset-0 p-4 md:p-8 flex flex-col justify-end">
                     <h3 className="text-2xl md:text-4xl font-bold font-headline text-white drop-shadow-lg">wintru.bet</h3>
-                    <p className="hidden md:block text-xs md:text-lg text-white/90 max-w-2xl mt-1 md:mt-2 drop-shadow-lg">Step into Papua New Guinea’s ultimate online gaming experience with Wintru.bet! From thrilling casino classics to live sports action, every game brings you closer to exclusive rewards. New members enjoy welcome bonuses, daily prizes, and the chance to climb our VIP ladder. Don’t miss your chance—join Wintru.bet today and play where the excitement never stops!</p>
-                    <p className="block md:hidden text-sm text-white/90 max-w-2xl mt-2 drop-shadow-lg">PNG's ultimate online gaming experience! Get welcome bonuses, daily prizes, and VIP rewards.</p>
+                    <p className="text-xs md:text-lg text-white/90 max-w-2xl mt-1 md:mt-2 drop-shadow-lg">Wintru.bet brings Papua New Guinea the ultimate gaming thrill—slots, sports & rewards. Get welcome bonuses, daily prizes & climb VIP ranks. Play now, fun awaits!</p>
                      <div className="mt-4 flex flex-wrap gap-2 items-center">
                         <div className="inline-flex items-center justify-center rounded-full border-2 border-accent/80 bg-accent/30 text-white px-3 py-1 text-xs md:text-sm font-semibold backdrop-blur-sm">
                             New Register Free K88
@@ -122,7 +121,7 @@ export default function PngCreditProPage() {
         </section>
 
         {offers.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {offers.map(offer => (
               <OfferCard
                 key={offer.id}
