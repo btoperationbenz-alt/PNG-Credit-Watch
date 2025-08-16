@@ -885,15 +885,15 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '67',
-    provider: 'laewin.com',
-    title: 'laewin.com',
+    provider: 'bop88.com',
+    title: 'bop88.com',
     description: 'The industrial hub of gaming fun. Laewin.com offers robust games and solid wins.',
     type: 'Business Loan',
     promoLength: '6 Months',
     termsAndConditions: 'Asset financing for industrial and commercial businesses in Lae.',
     logoUrl: 'https://placehold.co/600x400.png',
     maxAmount: 'PGK 500,000',
-    promoText: 'New Register Free K100',
+    promoText: 'New Register Free K28',
     welcomeBonusText: 'Welcome Bonus 100%',
   },
   {
@@ -924,4 +924,5 @@ export const offers: CreditOffer[] = [
 ];
 
   
+
 
