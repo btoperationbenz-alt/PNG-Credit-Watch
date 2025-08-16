@@ -189,9 +189,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '12',
-    provider: 'papuaspin.com',
-    title: 'papuaspin.com',
-    description: 'papuaspin.com offers the best of online gaming in PNG, with a massive selection of slots, sports betting, and live casino action.',
+    provider: 'jdb7.com',
+    title: 'jdb7.com',
+    description: 'jdb7.com offers the best of online gaming in PNG, with a massive selection of slots, sports betting, and live casino action.',
     type: 'Business Loan',
     promoLength: 'Any',
     termsAndConditions: 'The financed asset serves as security. Terms up to 5 years.',
@@ -368,8 +368,8 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '26',
-    provider: 'kayapng.com',
-    title: 'kayapng.com',
+    provider: 'pngggg.com',
+    title: 'pngggg.com',
     description: 'kayapng.com is your ultimate destination for online gaming in PNG, offering a thrilling variety of slots, sports betting, and live dealer action.',
     type: 'Credit Card',
     promoLength: 'Any',
@@ -381,8 +381,8 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '27',
-    provider: 'play420.com',
-    title: 'play420.com',
+    provider: 'jdb8.com',
+    title: 'jdb8.com',
     description: 'play420.com is your premier destination for online gaming in PNG, offering a wide selection of slots and casino games.',
     type: 'Business Loan',
     promoLength: '1 Month',
@@ -394,8 +394,8 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '28',
-    provider: 'lewaspin.com',
-    title: 'lewaspin.com',
+    provider: 'pnghhh.com',
+    title: 'pnghhh.com',
     description: 'Spin your way to big wins with lewaspin.com! The top online casino in PNG for exciting slots, table games, and massive jackpots.',
     type: 'Personal Loan',
     promoLength: '3 Months',
@@ -407,8 +407,8 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '29',
-    provider: 'clubpng.com',
-    title: 'clubpng.com',
+    provider: 'jdb9.com',
+    title: 'jdb9.com',
     description: 'clubpng.com is the ultimate gaming destination in PNG, offering exclusive access to a wide variety of slots, sports betting, and live casino action.',
     type: 'Credit Card',
     promoLength: '6 Months',
@@ -420,8 +420,8 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '30',
-    provider: 'kinaluck.com',
-    title: 'kinaluck.com',
+    provider: 'pngiii.com',
+    title: 'pngiii.com',
     description: 'kinaluck.com is your premier destination for online gaming in PNG, offering a thrilling variety of slots, sports betting, and live dealer action.',
     type: 'Business Loan',
     promoLength: '1 Year',
@@ -433,8 +433,8 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '31',
-    provider: 'funpgk.com',
-    title: 'funpgk.com',
+    provider: 'jdb10.com',
+    title: 'jdb10.com',
     description: 'funpgk.com is your premier destination for online gaming in PNG, offering a thrilling variety of slots, sports betting, and live dealer action.',
     type: 'Personal Loan',
     promoLength: 'Any',
@@ -446,9 +446,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '32',
-    provider: 'pngjjj.com',
-    title: 'pngjjj.com',
-    description: 'pngjjj.com is your premier choice for online gaming in PNG. Enjoy a wide selection of slots and sports betting options today!',
+    provider: 'portpng.com',
+    title: 'portpng.com',
+    description: 'portpng.com opens the port to a world of online gaming in PNG. Enjoy our vast selection of slots and sports betting options today!',
     type: 'Credit Card',
     promoLength: '1 Month',
     termsAndConditions: 'Higher credit limit and rewards points. Annual fee applies.',
@@ -699,6 +699,8 @@ export const offers: CreditOffer[] = [
 
 
 
+
+    
 
     
 
