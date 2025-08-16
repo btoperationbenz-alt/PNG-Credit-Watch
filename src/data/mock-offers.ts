@@ -40,6 +40,7 @@ export const offers: CreditOffer[] = [
     logoUrl: 'https://placehold.co/600x400.png',
     interestRate: '24% p.a.',
     promoText: 'New Register Free K38',
+    welcomeBonusText: 'Welcome Bonus 100%',
   },
   {
     id: '3',
