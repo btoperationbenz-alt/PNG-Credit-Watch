@@ -770,8 +770,8 @@ export const offers: CreditOffer[] = [
     promoLength: '1 Year',
     termsAndConditions: 'No annual fees, ever. Low interest rates.',
     logoUrl: 'https://placehold.co/600x400.png',
-    promoText: 'New Register Free K50',
-    welcomeBonusText: 'Welcome Bonus 80%',
+    promoText: 'New Register Free K38',
+    welcomeBonusText: 'Welcome Bonus 100%',
   },
   {
     id: '58',
