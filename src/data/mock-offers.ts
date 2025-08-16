@@ -415,8 +415,8 @@ export const offers: CreditOffer[] = [
     termsAndConditions: 'Special introductory rate for the first 3 months. For new and used vehicles.',
     logoUrl: 'https://placehold.co/600x400.png',
     interestRate: '14% p.a. intro',
-    promoText: 'New Register Free K88',
-    welcomeBonusText: 'Welcome Bonus 200%',
+    promoText: 'New Register Free K65',
+    welcomeBonusText: 'Welcome Bonus 50%',
   },
   {
     id: '30',
@@ -698,3 +698,6 @@ export const offers: CreditOffer[] = [
     
 
 
+
+
+    
