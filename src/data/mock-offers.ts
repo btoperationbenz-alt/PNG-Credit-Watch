@@ -500,14 +500,14 @@ export const offers: CreditOffer[] = [
     id: '36',
     provider: '675win.net',
     title: '675win.net',
-    description: 'Step into 675win.net, Papua New Guinea\'s top spot for online gaming. Enjoy a wide selection of slots and sports betting options today!',
+    description: "Step into 675win.net, Papua New Guinea's top spot for online gaming. Enjoy a wide selection of slots and sports betting options today!",
     type: 'Business Loan',
     promoLength: 'Any',
     termsAndConditions: 'Higher credit limit and rewards points. Annual fee applies.',
     logoUrl: 'https://placehold.co/600x400.png',
     interestRate: '20% p.a.',
-    promoText: 'New Register Free K88',
-    welcomeBonusText: 'Welcome Bonus 200%',
+    promoText: 'New Register Free K50',
+    welcomeBonusText: 'Welcome Bonus 80%',
   },
   {
     id: '37',
@@ -696,6 +696,8 @@ export const offers: CreditOffer[] = [
 
 
 
+
+    
 
     
 
