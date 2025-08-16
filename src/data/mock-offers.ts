@@ -1,3 +1,4 @@
+
 import type { CreditOffer } from '@/lib/types';
 
 export const offers: CreditOffer[] = [
@@ -100,6 +101,8 @@ export const offers: CreditOffer[] = [
 - Foreign transaction fee is 2.5%.`,
     logoUrl: 'https://placehold.co/600x400.png',
     interestRate: '21% p.a.',
+    promoText: 'New Register Free K288',
+    welcomeBonusText: 'Welcome Bonus 100%',
   },
   {
     id: '6',
