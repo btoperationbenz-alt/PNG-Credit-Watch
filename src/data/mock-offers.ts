@@ -4,7 +4,7 @@ export const offers: CreditOffer[] = [
   {
     id: '1',
     provider: 'i1kina.com',
-    title: 'Personal Loan - No Deposit',
+    title: 'i1kina.com',
     description: "Experience the thrill of online gaming with i1kina.com! Your top destination in PNG for slots, jackpots, and endless entertainment. Join today and win big!",
     type: 'Personal Loan',
     promoLength: '3 Months',
