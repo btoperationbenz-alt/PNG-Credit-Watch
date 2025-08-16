@@ -703,9 +703,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '52',
-    provider: 'fastwinpng.com',
-    title: 'fastwinpng.com',
-    description: 'Get your wins fast at fastwinpng.com! Instant payouts and exciting games.',
+    provider: 'kaboom8.com',
+    title: 'kaboom8.com',
+    description: 'Experience explosive wins at kaboom8.com! The premier destination for exciting slots and big jackpots in PNG.',
     type: 'Business Loan',
     promoLength: '3 Months',
     termsAndConditions: 'Simplified application for fast approval. For registered businesses only.',
@@ -858,6 +858,7 @@ export const offers: CreditOffer[] = [
     welcomeBonusText: 'Welcome Bonus 80%',
   },
 ];
+
 
 
 
