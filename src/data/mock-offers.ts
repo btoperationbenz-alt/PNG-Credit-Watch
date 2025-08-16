@@ -189,9 +189,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '12',
-    provider: 'jdb7.com',
-    title: 'jdb7.com',
-    description: 'jdb7.com offers the best of online gaming in PNG, with a massive selection of slots, sports betting, and live casino action.',
+    provider: 'slotpgk.com',
+    title: 'slotpgk.com',
+    description: 'slotpgk.com offers the best of online gaming in PNG, with a massive selection of slots, sports betting, and live casino action.',
     type: 'Business Loan',
     promoLength: 'Any',
     termsAndConditions: 'The financed asset serves as security. Terms up to 5 years.',
