@@ -15,7 +15,7 @@ import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Separator } from '@/components/ui/separator';
 import type { CreditOffer } from '@/lib/types';
 import { summarizeTerms } from '@/ai/flows/summarize-terms';
-import { Loader, Sparkles, FileText } from 'lucide-react';
+import { Loader, Sparkles, FileText, Play } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 interface OfferDetailsModalProps {
@@ -48,7 +48,10 @@ export default function OfferDetailsModal({ offer, isOpen, onOpenChange }: Offer
   };
 
   React.useEffect(() => {
-    if (!isOpen) {
+    if (isOpen) {
+      // Prefetch the summary when the modal opens
+      handleSummarize();
+    } else {
       setSummary(null);
       setIsLoading(false);
     }
@@ -79,7 +82,7 @@ export default function OfferDetailsModal({ offer, isOpen, onOpenChange }: Offer
                     ) : (
                         <Sparkles className="mr-2 h-4 w-4" />
                     )}
-                    {isLoading ? 'Analyzing...' : 'Generate Summary'}
+                    {isLoading ? 'Analyzing...' : 'Re-Analyze'}
                 </Button>
             </div>
             <ScrollArea className="h-96 rounded-md border p-4 bg-background/50">
@@ -106,7 +109,7 @@ export default function OfferDetailsModal({ offer, isOpen, onOpenChange }: Offer
               {!isLoading && !summary && (
                 <div className="flex flex-col items-center justify-center h-full text-center">
                     <FileText className="h-12 w-12 text-muted-foreground/50 mb-4" />
-                    <p className="text-muted-foreground">Click "Generate Summary" for an AI-powered breakdown of the terms.</p>
+                    <p className="text-muted-foreground">Could not generate summary. Please try again.</p>
                 </div>
               )}
             </ScrollArea>

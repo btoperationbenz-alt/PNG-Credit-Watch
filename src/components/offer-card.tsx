@@ -12,7 +12,7 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import type { CreditOffer } from '@/lib/types';
-import { Bookmark, Clock, Eye, Percent, TrendingUp } from 'lucide-react';
+import { Bookmark, Clock, Percent, Gamepad2, Play } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 interface OfferCardProps {
@@ -28,38 +28,35 @@ export default function OfferCard({
   isSaved,
   onSaveToggle,
   onViewDetails,
-  typeIcon: TypeIcon = TrendingUp,
+  typeIcon: TypeIcon = Gamepad2,
 }: OfferCardProps) {
   return (
-    <Card className="flex flex-col overflow-hidden transition-all duration-300 hover:shadow-primary/20 hover:shadow-lg hover:-translate-y-1 hover:border-primary/50 border-2 border-transparent bg-card/80 backdrop-blur-sm">
-      <CardHeader className="flex-row items-start gap-4 bg-card/50 p-4">
-        <div className="p-2 bg-background rounded-lg border border-border">
+    <Card className="flex flex-col group overflow-hidden transition-all duration-300 border-2 border-transparent bg-card/80 backdrop-blur-sm rounded-xl hover:shadow-primary/20 hover:shadow-lg hover:-translate-y-1 hover:border-primary/50">
+        <div className="relative h-40 w-full">
             <Image
-            src={offer.logoUrl}
-            alt={`${offer.provider} logo`}
-            width={48}
-            height={48}
-            className="rounded-md object-contain aspect-square"
-            data-ai-hint="corporate logo"
+                src={offer.logoUrl}
+                alt={offer.title}
+                layout="fill"
+                objectFit="cover"
+                className="transition-transform duration-500 group-hover:scale-110"
+                data-ai-hint="video game fantasy"
             />
+            <div className="absolute inset-0 bg-gradient-to-t from-card via-card/50 to-transparent" />
+             <Button
+              variant="ghost"
+              size="icon"
+              onClick={onSaveToggle}
+              aria-label={isSaved ? 'Unsave offer' : 'Save offer'}
+              className="absolute top-2 right-2 hover:bg-accent/20 z-10"
+            >
+              <Bookmark className={cn('h-6 w-6 transition-all', isSaved ? 'fill-primary text-primary' : 'text-white/80 hover:text-primary')} />
+            </Button>
         </div>
-        <div className="flex-1">
-          <CardTitle className="text-xl font-bold font-headline">{offer.title}</CardTitle>
-          <CardDescription className="text-muted-foreground">{offer.provider}</CardDescription>
-        </div>
-        <Button
-          variant="ghost"
-          size="icon"
-          onClick={onSaveToggle}
-          aria-label={isSaved ? 'Unsave offer' : 'Save offer'}
-          className="hover:bg-accent/20"
-        >
-          <Bookmark className={cn('h-6 w-6 transition-all', isSaved ? 'fill-primary text-primary' : 'text-muted-foreground hover:text-primary')} />
-        </Button>
-      </CardHeader>
-      <CardContent className="flex-1 p-4 pt-0 space-y-4">
+      <CardContent className="flex-1 p-4 -mt-10 z-10">
+         <CardTitle className="text-xl font-bold font-headline mb-1">{offer.title}</CardTitle>
+          <CardDescription className="text-muted-foreground text-sm mb-3">{offer.provider}</CardDescription>
         <p className="text-sm text-muted-foreground h-10">{offer.description}</p>
-        <div className="flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-2 mt-2">
             <Badge variant="secondary" className="gap-1.5 pl-2 border-accent/30 bg-accent/10 text-accent-foreground">
                 <TypeIcon className="h-3.5 w-3.5" />
                 {offer.type}
@@ -76,10 +73,10 @@ export default function OfferCard({
             )}
         </div>
       </CardContent>
-      <CardFooter className="p-4 bg-card/20">
+      <CardFooter className="p-4 pt-0">
         <Button onClick={onViewDetails} className="w-full bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow">
-          <Eye className="mr-2 h-4 w-4" />
-          View & Analyze
+          <Play className="mr-2 h-4 w-4" />
+          Play
         </Button>
       </CardFooter>
     </Card>

@@ -16,7 +16,7 @@ export const offers: CreditOffer[] = [
 6. Fees: An establishment fee of PGK 150 applies. Late payment fees of PGK 50 per instance will be charged.
 7. Credit Check: Applicants are subject to a credit history check. Approval is not guaranteed.
 8. Offer Period: This promotion is valid for applications received before December 31, 2024.`,
-    logoUrl: 'https://placehold.co/100x100.png',
+    logoUrl: 'https://placehold.co/600x400.png',
     interestRate: '15% p.a.',
     maxAmount: 'PGK 50,000'
   },
@@ -35,7 +35,7 @@ export const offers: CreditOffer[] = [
 - Interest rate on purchases is 24% per annum.
 - Applicants must provide proof of steady income.
 - Offer cannot be used in conjunction with other promotions.`,
-    logoUrl: 'https://placehold.co/100x100.png',
+    logoUrl: 'https://placehold.co/600x400.png',
     interestRate: '24% p.a.',
   },
   {
@@ -52,7 +52,7 @@ export const offers: CreditOffer[] = [
 4. Interest Rate: Introductory rate of 9% p.a. for the first 6 months. Standard business loan rates apply thereafter.
 5. Security: While no cash deposit is required, a director's guarantee may be necessary.
 6. Documentation: Applicants must submit a business plan, financial statements (if available), and company registration documents.`,
-    logoUrl: 'https://placehold.co/100x100.png',
+    logoUrl: 'https://placehold.co/600x400.png',
     interestRate: '9% intro rate',
     maxAmount: 'PGK 100,000'
   },
@@ -71,7 +71,7 @@ export const offers: CreditOffer[] = [
 - A favorable interest rate of 8% p.a. is applied.
 - A parental or guardian guarantee is required for all applicants under 21.
 - No repayments are required until 6 months after graduation. Interest will continue to accrue during the study period.`,
-    logoUrl: 'https://placehold.co/100x100.png',
+    logoUrl: 'https://placehold.co/600x400.png',
     interestRate: '8% p.a.',
     maxAmount: 'PGK 5,000'
   },
@@ -90,7 +90,7 @@ export const offers: CreditOffer[] = [
 - Access to select airport lounges in the Pacific region.
 - Interest rate for purchases is 21% p.a.
 - Foreign transaction fee is 2.5%.`,
-    logoUrl: 'https://placehold.co/100x100.png',
+    logoUrl: 'https://placehold.co/600x400.png',
     interestRate: '21% p.a.',
   },
   {
@@ -108,7 +108,7 @@ export const offers: CreditOffer[] = [
 - Repayment schedule is flexible and can be aligned with harvest or production cycles.
 - A 3-month interest-only period is available at the start of the loan.
 - Applicants must provide a detailed project proposal.`,
-    logoUrl: 'https://placehold.co/100x100.png',
+    logoUrl: 'https://placehold.co/600x400.png',
     maxAmount: 'PGK 200,000'
   },
 ];
