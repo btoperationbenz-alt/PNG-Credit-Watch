@@ -654,9 +654,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '48',
-    provider: 'pngrrr.com',
-    title: 'pngrrr.com',
-    description: 'pngrrr.com is your premier choice for online gaming in PNG. Enjoy a wide selection of slots and sports betting options today!',
+    provider: 'png675.com',
+    title: 'png675.com',
+    description: 'png675.com is your premier choice for online gaming in PNG. Enjoy a wide selection of slots and sports betting options today!',
     type: 'Business Loan',
     promoLength: '3 Months',
     termsAndConditions: 'Higher credit limit and rewards points. Annual fee applies.',
