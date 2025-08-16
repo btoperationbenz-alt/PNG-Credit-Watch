@@ -715,9 +715,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '53',
-    provider: 'pngbet.com',
-    title: 'pngbet.com',
-    description: 'The number one choice for sports betting in PNG. Bet on all your favorite games.',
+    provider: 'k99png.com',
+    title: 'k99png.com',
+    description: 'k99png.com is the number one choice for sports betting in PNG. Bet on all your favorite games.',
     type: 'Personal Loan',
     promoLength: 'Any',
     termsAndConditions: 'Competitive rates for all customers. Quick and easy online application.',
@@ -858,6 +858,7 @@ export const offers: CreditOffer[] = [
     welcomeBonusText: 'Welcome Bonus 80%',
   },
 ];
+
 
 
 
