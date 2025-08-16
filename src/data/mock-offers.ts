@@ -290,9 +290,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '20',
-    provider: 'pngddd.com',
-    title: 'pngddd.com',
-    description: 'Join pngddd.com for a comprehensive online gaming platform with sports, slots, and live casino, tailored for PNG players.',
+    provider: 'speedpgk33.com',
+    title: 'speedpgk33.com',
+    description: 'speedpgk33.com delivers the fastest gaming experience in PNG, with instant access to a huge selection of slots, sports betting, and live casino games.',
     type: 'Credit Card',
     promoLength: '1 Year',
     termsAndConditions: 'Higher credit limit and rewards points. Annual fee applies.',
@@ -345,3 +345,4 @@ export const offers: CreditOffer[] = [
     
 
     
+
