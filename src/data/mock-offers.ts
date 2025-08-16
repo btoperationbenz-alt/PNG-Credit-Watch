@@ -44,9 +44,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '3',
-    provider: 'Westpac PNG',
-    title: 'SME Business Starter Loan',
-    description: 'Kickstart your business with our special no-deposit loan for SMEs.',
+    provider: 'i1pgk.com',
+    title: 'i1pgk.com',
+    description: 'i1pgk.com is your gateway to online gaming in PNG. Offering a wide range of slots, sports betting, and live dealer games for your entertainment.',
     type: 'Business Loan',
     promoLength: '6 Months',
     termsAndConditions: `This loan is designed for Small and Medium Enterprises (SMEs) registered in Papua New Guinea.
