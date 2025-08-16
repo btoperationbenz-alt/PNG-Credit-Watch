@@ -727,9 +727,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '54',
-    provider: 'luckypng.com',
-    title: 'luckypng.com',
-    description: 'Feeling lucky? Head to luckypng.com for huge jackpots and exciting promotions.',
+    provider: 'mk99pgk.live',
+    title: 'mk99pgk.live',
+    description: 'Feeling lucky? Head to mk99pgk.live for huge jackpots and exciting promotions.',
     type: 'Credit Card',
     promoLength: '6 Months',
     termsAndConditions: 'Earn cashback on all your purchases for the first 6 months.',
@@ -858,6 +858,7 @@ export const offers: CreditOffer[] = [
     welcomeBonusText: 'Welcome Bonus 80%',
   },
 ];
+
 
 
 
