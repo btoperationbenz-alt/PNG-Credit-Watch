@@ -1,7 +1,16 @@
+'use client';
+
 import Link from 'next/link';
 import { Briefcase } from 'lucide-react';
+import { useEffect, useState } from 'react';
 
 export default function Footer() {
+  const [year, setYear] = useState(new Date().getFullYear());
+
+  useEffect(() => {
+    setYear(new Date().getFullYear());
+  }, []);
+
   return (
     <footer className="border-t border-border/40">
       <div className="container py-12">
@@ -42,7 +51,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-border/40 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} PNG Credit Pro. All Rights Reserved.</p>
+          <p>&copy; {year} PNG Credit Pro. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
