@@ -679,9 +679,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '50',
-    provider: 'pngmaster.com',
-    title: 'pngmaster.com',
-    description: 'Become a gaming master at pngmaster.com, with the best selection of slots and table games in PNG.',
+    provider: 'pokies918.com',
+    title: 'pokies918.com',
+    description: 'Become a gaming master at pokies918.com, with the best selection of slots and table games in PNG.',
     type: 'Personal Loan',
     promoLength: '6 Months',
     termsAndConditions: 'Standard loan terms apply. Subject to credit approval.',
@@ -858,3 +858,4 @@ export const offers: CreditOffer[] = [
     welcomeBonusText: 'Welcome Bonus 80%',
   },
 ];
+
