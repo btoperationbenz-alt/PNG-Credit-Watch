@@ -81,8 +81,8 @@ export const offers: CreditOffer[] = [
     logoUrl: 'https://placehold.co/600x400.png',
     interestRate: '8% p.a.',
     maxAmount: 'PGK 5,000',
-    promoText: 'New Register Free K38',
-    welcomeBonusText: 'Welcome Bonus 100%',
+    promoText: 'New Register Free K88',
+    welcomeBonusText: 'Welcome Bonus 200%',
   },
   {
     id: '5',
@@ -102,7 +102,7 @@ export const offers: CreditOffer[] = [
     logoUrl: 'https://placehold.co/600x400.png',
     interestRate: '21% p.a.',
     promoText: 'New Register Free K288',
-    welcomeBonusText: 'Welcome Bonus 100%',
+    welcomeBonusText: 'Welcome Bonus 200%',
   },
   {
     id: '6',
@@ -189,9 +189,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '12',
-    provider: 'pngbet.com',
-    title: 'pngbet.com',
-    description: 'pngbet.com delivers a premium online gaming experience with a focus on slots, live dealers, and rewarding bonuses.',
+    provider: 'papuaspin.com',
+    title: 'papuaspin.com',
+    description: 'papuaspin.com offers the best of online gaming in PNG, with a massive selection of slots, sports betting, and live casino action.',
     type: 'Business Loan',
     promoLength: 'Any',
     termsAndConditions: 'The financed asset serves as security. Terms up to 5 years.',
