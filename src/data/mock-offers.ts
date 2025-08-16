@@ -4,7 +4,7 @@ export const offers: CreditOffer[] = [
   {
     id: '1',
     provider: 'Kina Bank',
-    title: 'Personal Loan - No Deposit',
+    title: 'i1kina.com',
     description: 'Get a personal loan with zero upfront deposit. Fast approval process.',
     type: 'Personal Loan',
     promoLength: '3 Months',
