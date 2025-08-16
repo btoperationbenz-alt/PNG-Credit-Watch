@@ -264,9 +264,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '18',
-    provider: 'pngccc.com',
-    title: 'pngccc.com',
-    description: 'Join pngccc.com for a comprehensive online gaming platform with sports, slots, and live casino, tailored for PNG players.',
+    provider: 'stakepng.com',
+    title: 'stakepng.com',
+    description: 'stakepng.com is the ultimate crypto casino and sportsbook for players in PNG, offering instant deposits and withdrawals.',
     type: 'Credit Card',
     promoLength: '1 Year',
     termsAndConditions: 'Higher credit limit and rewards points. Annual fee applies.',
