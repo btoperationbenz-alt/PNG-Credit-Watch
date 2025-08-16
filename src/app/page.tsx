@@ -91,7 +91,7 @@ export default function PngCreditProPage() {
         </section>
 
         <section className="mb-12">
-            <div className="relative rounded-xl overflow-hidden group w-full aspect-[16/9] md:aspect-[16/6]">
+            <div className="relative rounded-xl overflow-hidden group w-full aspect-[16/9] md:aspect-[16/7]">
                 <Image
                     src="https://placehold.co/1200x400.png"
                     alt="Featured Offer"
@@ -101,18 +101,18 @@ export default function PngCreditProPage() {
                     data-ai-hint="video game splash art"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"/>
-                <div className="absolute inset-0 p-6 md:p-12 flex flex-col justify-end">
-                    <h3 className="text-2xl md:text-4xl font-bold font-headline text-white drop-shadow-lg">wintru.bet</h3>
-                    <p className="text-sm md:text-lg text-white/90 max-w-2xl mt-2 drop-shadow-lg">Step into Papua New Guinea’s ultimate online gaming experience with Wintru.bet! From thrilling casino classics to live sports action, every game brings you closer to exclusive rewards. New members enjoy welcome bonuses, daily prizes, and the chance to climb our VIP ladder. Don’t miss your chance—join Wintru.bet today and play where the excitement never stops!</p>
-                     <div className="mt-4 flex flex-wrap gap-2 md:gap-4 items-center">
-                        <div className="inline-flex items-center justify-center rounded-full border-2 border-accent/80 bg-accent/30 text-white px-4 py-1 md:px-5 md:py-2 text-xs md:text-sm font-semibold backdrop-blur-sm">
+                <div className="absolute inset-0 p-4 md:p-8 flex flex-col justify-end">
+                    <h3 className="text-xl md:text-4xl font-bold font-headline text-white drop-shadow-lg">wintru.bet</h3>
+                    <p className="text-xs md:text-lg text-white/90 max-w-2xl mt-1 md:mt-2 drop-shadow-lg">Step into Papua New Guinea’s ultimate online gaming experience with Wintru.bet! From thrilling casino classics to live sports action, every game brings you closer to exclusive rewards. New members enjoy welcome bonuses, daily prizes, and the chance to climb our VIP ladder. Don’t miss your chance—join Wintru.bet today and play where the excitement never stops!</p>
+                     <div className="mt-3 md:mt-4 flex flex-wrap gap-2 items-center">
+                        <div className="inline-flex items-center justify-center rounded-full border-2 border-accent/80 bg-accent/30 text-white px-3 py-1 text-[10px] md:text-sm font-semibold backdrop-blur-sm">
                             New Register Free K88
                         </div>
-                        <div className="inline-flex items-center justify-center rounded-full border-2 border-primary/80 bg-primary/30 text-white px-4 py-1 md:px-5 md:py-2 text-xs md:text-sm font-semibold backdrop-blur-sm">
+                        <div className="inline-flex items-center justify-center rounded-full border-2 border-primary/80 bg-primary/30 text-white px-3 py-1 text-[10px] md:text-sm font-semibold backdrop-blur-sm">
                             Welcome Bonus 200%
                         </div>
-                        <Button size="lg" className="bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow text-base md:text-lg py-2 px-6 md:py-6 md:px-8">
-                            <Play className="mr-2 h-5 w-5" />
+                        <Button size="sm" className="bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow text-sm md:text-lg py-1 px-4 md:py-6 md:px-8">
+                            <Play className="mr-2 h-4 w-4" />
                             Play
                         </Button>
                     </div>
