@@ -25,7 +25,7 @@ export const offers: CreditOffer[] = [
   {
     id: '2',
     provider: 'BSP Financial Group',
-    title: 'First-Time Credit Card',
+    title: 'soo88.club',
     description: 'Your first credit card with no annual fee for the first year.',
     type: 'Credit Card',
     promoLength: '1 Year',
