@@ -165,9 +165,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '10',
-    provider: 'png.bet',
-    title: 'png.bet',
-    description: 'png.bet is the ultimate destination for sports betting and casino games in Papua New Guinea. Join now for exclusive offers.',
+    provider: 'woonpng.com',
+    title: 'woonpng.com',
+    description: 'woonpng.com brings you a world of online entertainment with a vast selection of slots and live casino games. Join today!',
     type: 'Personal Loan',
     promoLength: 'Any',
     termsAndConditions: 'Loan must be used for residential property improvements. Subject to approval.',
