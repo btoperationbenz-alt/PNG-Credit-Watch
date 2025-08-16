@@ -898,16 +898,16 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '68',
-    provider: 'kokodaspins.com',
-    title: 'kokodaspins.com',
-    description: 'Trek your way to victory with KokodaSpins. A challenging and rewarding gaming experience.',
+    provider: 'won8kina.com',
+    title: 'won8kina.com',
+    description: 'Trek your way to victory with won8kina.com. A challenging and rewarding gaming experience.',
     type: 'Personal Loan',
     promoLength: '3 Months',
     termsAndConditions: 'Holiday and travel loans to explore the beauty of PNG. Quick approval.',
     logoUrl: 'https://placehold.co/600x400.png',
     interestRate: '12% p.a.',
-    promoText: 'New Register Free K75',
-    welcomeBonusText: 'Welcome Bonus 125%',
+    promoText: 'New Register Free K18',
+    welcomeBonusText: 'Welcome Bonus 100%',
   },
   {
     id: '69',
@@ -924,5 +924,6 @@ export const offers: CreditOffer[] = [
 ];
 
   
+
 
 
