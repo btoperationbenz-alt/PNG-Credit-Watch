@@ -316,9 +316,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '22',
-    provider: 'pngeee.com',
-    title: 'pngeee.com',
-    description: 'Join pngeee.com for a comprehensive online gaming platform with sports, slots, and live casino, tailored for PNG players.',
+    provider: 'niugini.vip',
+    title: 'niugini.vip',
+    description: 'niugini.vip is the VIP gaming destination for PNG players, offering exclusive slots, high-stakes table games, and a premium live casino experience.',
     type: 'Credit Card',
     promoLength: '1 Year',
     termsAndConditions: 'Higher credit limit and rewards points. Annual fee applies.',
