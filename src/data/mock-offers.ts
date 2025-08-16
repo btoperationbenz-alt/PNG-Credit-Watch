@@ -381,9 +381,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '27',
-    provider: 'jdb8.com',
-    title: 'jdb8.com',
-    description: 'jdb8.com offers an extensive library of online slots and casino games, providing endless fun and big win potential in PNG.',
+    provider: 'play420.com',
+    title: 'play420.com',
+    description: 'play420.com is your premier destination for online gaming in PNG, offering a wide selection of slots and casino games.',
     type: 'Business Loan',
     promoLength: '1 Month',
     termsAndConditions: 'Special introductory rate for the first 3 months. For new and used vehicles.',
