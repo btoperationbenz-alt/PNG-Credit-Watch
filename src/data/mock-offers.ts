@@ -667,9 +667,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '49',
-    provider: 'slotpgk.com',
-    title: 'slotpgk.com',
-    description: 'slotpgk.com offers the best of online gaming in PNG, with a massive selection of slots, sports betting, and live casino action.',
+    provider: 'papuaspin.com',
+    title: 'papuaspin.com',
+    description: 'papuaspin.com offers the best of online gaming in PNG, with a massive selection of slots, sports betting, and live casino action.',
     type: 'Personal Loan',
     promoLength: '6 Months',
     termsAndConditions: 'Special introductory rate for the first 3 months. For new and used vehicles.',
@@ -699,6 +699,8 @@ export const offers: CreditOffer[] = [
 
 
 
+
+    
 
     
 
