@@ -111,8 +111,8 @@ export default function PngCreditProPage() {
                         <div className="inline-flex items-center justify-center rounded-full border border-primary/80 bg-primary/30 text-white px-2 py-1 text-[10px] md:text-sm font-semibold backdrop-blur-sm">
                             Welcome Bonus 200%
                         </div>
-                        <Button size="sm" className="bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow text-xs md:text-base h-8 md:h-10 px-3 md:px-6">
-                            <Play className="mr-1 md:mr-2 h-3 w-3 md:h-4 md:w-4" />
+                        <Button size="sm" className="bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow text-lg h-12 px-6 md:text-base md:h-10 md:px-6">
+                            <Play className="mr-1 h-5 w-5 md:mr-2 md:h-4 md:w-4" />
                             Play
                         </Button>
                     </div>
