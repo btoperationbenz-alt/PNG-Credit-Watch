@@ -782,7 +782,7 @@ export const offers: CreditOffer[] = [
     promoLength: '6 Months',
     termsAndConditions: 'Special financing for tourism and hospitality businesses.',
     logoUrl: 'https://placehold.co/600x400.png',
-    promoText: 'New Register Free K100',
+    promoText: 'New Register Free K39',
     welcomeBonusText: 'Welcome Bonus 100%',
   },
   {
