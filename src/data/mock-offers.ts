@@ -847,9 +847,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '64',
-    provider: 'pngjoy.com',
-    title: 'pngjoy.com',
-    description: 'Find your joy at pngjoy.com. Fun games and a friendly community.',
+    provider: 'moni33.com',
+    title: 'moni33.com',
+    description: 'Find your joy at moni33.com. Fun games and a friendly community.',
     type: 'Business Loan',
     promoLength: '1 Year',
     termsAndConditions: 'Loans for community projects and non-profits.',
@@ -858,3 +858,5 @@ export const offers: CreditOffer[] = [
     welcomeBonusText: 'Welcome Bonus 80%',
   },
 ];
+
+    
