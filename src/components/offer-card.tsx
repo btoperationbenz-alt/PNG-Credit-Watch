@@ -12,7 +12,7 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import type { CreditOffer } from '@/lib/types';
-import { Bookmark, Clock, Eye, Percent, Gem } from 'lucide-react';
+import { Bookmark, Clock, Eye, Percent, TrendingUp } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 interface OfferCardProps {
@@ -28,10 +28,10 @@ export default function OfferCard({
   isSaved,
   onSaveToggle,
   onViewDetails,
-  typeIcon: TypeIcon = Gem,
+  typeIcon: TypeIcon = TrendingUp,
 }: OfferCardProps) {
   return (
-    <Card className="flex flex-col overflow-hidden transition-all duration-300 hover:shadow-primary/40 hover:shadow-lg hover:-translate-y-1 hover:border-primary/50 border-2 border-transparent bg-card/80 backdrop-blur-sm">
+    <Card className="flex flex-col overflow-hidden transition-all duration-300 hover:shadow-primary/20 hover:shadow-lg hover:-translate-y-1 hover:border-primary/50 border-2 border-transparent bg-card/80 backdrop-blur-sm">
       <CardHeader className="flex-row items-start gap-4 bg-card/50 p-4">
         <div className="p-2 bg-background rounded-lg border border-border">
             <Image
@@ -40,7 +40,7 @@ export default function OfferCard({
             width={48}
             height={48}
             className="rounded-md object-contain aspect-square"
-            data-ai-hint="fantasy guild crest"
+            data-ai-hint="corporate logo"
             />
         </div>
         <div className="flex-1">
@@ -79,7 +79,7 @@ export default function OfferCard({
       <CardFooter className="p-4 bg-card/20">
         <Button onClick={onViewDetails} className="w-full bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow">
           <Eye className="mr-2 h-4 w-4" />
-          View Details & Summarize
+          View & Analyze
         </Button>
       </CardFooter>
     </Card>

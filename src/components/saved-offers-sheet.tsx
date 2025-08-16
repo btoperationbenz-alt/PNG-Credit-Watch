@@ -13,26 +13,7 @@ import { Button } from '@/components/ui/button';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Separator } from '@/components/ui/separator';
 import type { CreditOffer } from '@/lib/types';
-import { Trash2 } from 'lucide-react';
-
-const TreasureChestIcon = (props: React.SVGProps<SVGSVGElement>) => (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      {...props}
-    >
-      <rect x="2" y="8" width="20" height="12" rx="2" />
-      <path d="M2 8h20" />
-      <path d="M12 14v-4" />
-      <path d="M12 8a4 4 0 0 0-4-4h-2a4 4 0 0 0-4 4" />
-      <path d="M12 8a4 4 0 0 1 4-4h2a4 4 0 0 1 4 4" />
-    </svg>
-  );
+import { Trash2, Briefcase } from 'lucide-react';
 
 interface SavedOffersSheetProps {
   savedOffers: CreditOffer[];
@@ -51,9 +32,9 @@ export default function SavedOffersSheet({
     <Sheet open={isOpen} onOpenChange={onOpenChange}>
       <SheetContent className="flex flex-col bg-card/95 backdrop-blur-sm border-primary/20">
         <SheetHeader>
-          <SheetTitle className="text-2xl font-headline text-primary">Your Loot</SheetTitle>
+          <SheetTitle className="text-2xl font-headline text-primary">Your Portfolio</SheetTitle>
           <SheetDescription>
-            Review and compare your saved quest rewards.
+            Review and compare your saved credit offers.
           </SheetDescription>
         </SheetHeader>
         <Separator className="bg-border/50" />
@@ -69,7 +50,7 @@ export default function SavedOffersSheet({
                       width={40}
                       height={40}
                       className="rounded-md border object-contain aspect-square mt-1 bg-background"
-                      data-ai-hint="fantasy guild crest"
+                      data-ai-hint="corporate logo"
                     />
                     <div className="flex-1">
                       <h4 className="font-semibold font-headline">{offer.title}</h4>
@@ -80,7 +61,7 @@ export default function SavedOffersSheet({
                       size="icon" 
                       className="text-muted-foreground hover:text-destructive shrink-0 hover:bg-destructive/10"
                       onClick={() => onRemove(offer.id)}
-                      aria-label={`Remove ${offer.title} from saved`}
+                      aria-label={`Remove ${offer.title} from portfolio`}
                     >
                       <Trash2 className="h-4 w-4" />
                     </Button>
@@ -90,9 +71,9 @@ export default function SavedOffersSheet({
             </ScrollArea>
           ) : (
             <div className="flex flex-col items-center justify-center h-full text-center text-muted-foreground">
-              <TreasureChestIcon className="h-16 w-16 mb-4 text-muted-foreground/50" />
-              <p className="font-semibold font-headline">Your inventory is empty.</p>
-              <p className="text-sm">Click the bookmark icon on an offer to save it as loot.</p>
+              <Briefcase className="h-16 w-16 mb-4 text-muted-foreground/50" />
+              <p className="font-semibold font-headline">Your portfolio is empty.</p>
+              <p className="text-sm">Click the bookmark icon on an offer to add it to your portfolio.</p>
             </div>
           )}
         </div>
