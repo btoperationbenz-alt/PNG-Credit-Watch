@@ -8,7 +8,7 @@ export default function AboutUsPage() {
         <div>
           <h1 className="text-4xl md:text-5xl font-bold font-headline mb-4">About PNG Free Credit</h1>
           <p className="text-lg text-muted-foreground mb-6">
-            我们致力于简化巴布亚新几内亚的金融格局。我们的使命是通过提供清晰、易于获取和最新的信贷机会信息，为个人和企业赋能。
+            We are dedicated to simplifying Papua New Guinea's financial landscape. Our mission is to empower individuals and businesses by providing clear, accessible, and up-to-date information on credit opportunities.
           </p>
           <div className="space-y-4">
             <div className="flex items-start gap-4">
