@@ -8,7 +8,6 @@ import {
   Filter,
   Search,
   Bookmark,
-  Briefcase,
 } from 'lucide-react';
 import type { CreditOffer } from '@/lib/types';
 import { offers as allOffers } from '@/data/mock-offers';
@@ -79,31 +78,7 @@ export default function PngCreditProPage() {
 
   return (
     <div className="flex flex-col min-h-screen bg-background text-foreground selection:bg-primary/40">
-       <header className="sticky top-0 z-40 w-full border-b border-primary/20 bg-background/80 backdrop-blur-sm">
-        <div className="container flex h-20 items-center justify-between">
-          <div className="flex items-center gap-3">
-            <Briefcase className="h-8 w-8 text-primary" />
-            <h1 className="text-3xl font-bold font-headline tracking-wide text-primary-foreground drop-shadow-[0_0_10px_hsl(var(--primary))]">
-              PNG Credit Pro
-            </h1>
-          </div>
-          <Button
-            variant="outline"
-            onClick={() => setIsSheetOpen(true)}
-            className="relative bg-card/50 border-accent/50 hover:bg-accent/20 hover:border-accent"
-          >
-            <Bookmark className="mr-2 h-4 w-4" />
-            My Portfolio
-            {savedOfferIds.size > 0 && (
-              <span className="absolute -top-2 -right-2 flex h-6 w-6 items-center justify-center rounded-full bg-accent text-accent-foreground text-xs font-bold animate-pulse">
-                {savedOfferIds.size}
-              </span>
-            )}
-          </Button>
-        </div>
-      </header>
-
-      <main className="flex-1 container py-8">
+      <div className="container py-8">
         <section className="text-center space-y-4 mb-12">
           <h2 className="text-5xl font-headline font-bold tracking-wider uppercase">
             Unlock Your <span className="text-primary drop-shadow-[0_0_8px_hsl(var(--primary))]">Financial Advantage</span>
@@ -153,6 +128,19 @@ export default function PngCreditProPage() {
                         ))}
                     </SelectContent>
                 </Select>
+                 <Button
+                    variant="outline"
+                    onClick={() => setIsSheetOpen(true)}
+                    className="relative bg-card/50 border-accent/50 hover:bg-accent/20 hover:border-accent"
+                  >
+                    <Bookmark className="mr-2 h-4 w-4" />
+                    Saved Offers
+                    {savedOfferIds.size > 0 && (
+                      <span className="absolute -top-2 -right-2 flex h-6 w-6 items-center justify-center rounded-full bg-accent text-accent-foreground text-xs font-bold animate-pulse">
+                        {savedOfferIds.size}
+                      </span>
+                    )}
+                  </Button>
             </div>
         </div>
 
@@ -175,15 +163,7 @@ export default function PngCreditProPage() {
                 <p className="text-sm text-muted-foreground">Adjust your search parameters and try again.</p>
             </div>
         )}
-      </main>
-      
-      <footer className="py-6 md:px-8 md:py-0 border-t border-primary/20">
-          <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
-            <p className="text-balance text-center text-sm leading-loose text-muted-foreground md:text-left">
-              © 2024 PNG Credit Pro. All Rights Reserved.
-            </p>
-          </div>
-      </footer>
+      </div>
 
       {selectedOffer && (
         <OfferDetailsModal
