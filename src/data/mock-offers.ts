@@ -673,7 +673,9 @@ export const offers: CreditOffer[] = [
     type: 'Business Loan',
     promoLength: 'Any',
     termsAndConditions: 'The financed asset serves as security. Terms up to 5 years.',
-    logoUrl: 'https://placehold.co/600x400.png'
+    logoUrl: 'https://placehold.co/600x400.png',
+    promoText: 'New Register Free K60',
+    welcomeBonusText: 'Welcome Bonus 80%',
   },
 ];
 
@@ -725,6 +727,8 @@ export const offers: CreditOffer[] = [
 
 
 
+
+    
 
     
 
