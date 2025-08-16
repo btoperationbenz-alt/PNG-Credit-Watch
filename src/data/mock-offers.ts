@@ -18,7 +18,8 @@ export const offers: CreditOffer[] = [
 8. Offer Period: This promotion is valid for applications received before December 31, 2024.`,
     logoUrl: 'https://placehold.co/600x400.png',
     interestRate: '15% p.a.',
-    maxAmount: 'PGK 50,000'
+    maxAmount: 'PGK 50,000',
+    promoText: 'New Register Free K38',
   },
   {
     id: '2',

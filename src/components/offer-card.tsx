@@ -57,7 +57,7 @@ export default function OfferCard({
         <p className="text-sm text-muted-foreground h-12">{offer.description}</p>
         <div className="mt-4 flex flex-wrap gap-2">
            <div className="inline-flex items-center justify-center rounded-full border border-accent/50 bg-accent/20 text-white px-3 py-1 text-xs font-semibold">
-                New Register Free K38
+                {offer.promoText || 'New Register Free K88'}
             </div>
             <div className="inline-flex items-center justify-center rounded-full border border-primary/50 bg-primary/20 text-white px-3 py-1 text-xs font-semibold">
                 Welcome Bonus 200%
@@ -65,7 +65,7 @@ export default function OfferCard({
         </div>
       </CardContent>
       <CardFooter className="p-6 pt-0">
-        <Button onClick={onViewDetails} className="w-full bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow">
+        <Button onClick={onViewDetails} className="w-full bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow text-base py-6 md:py-5 md:text-sm">
           <Play className="mr-2 h-5 w-5" />
           Play
         </Button>

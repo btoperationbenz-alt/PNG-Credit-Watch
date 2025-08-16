@@ -9,4 +9,5 @@ export type CreditOffer = {
   logoUrl: string;
   interestRate?: string;
   maxAmount?: string;
+  promoText?: string;
 };
