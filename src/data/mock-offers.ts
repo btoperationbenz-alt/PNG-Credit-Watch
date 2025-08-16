@@ -485,9 +485,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '35',
-    provider: 'papuaspin.com',
-    title: 'papuaspin.com',
-    description: 'papuaspin.com offers the best of online gaming in PNG, with a massive selection of slots, sports betting, and live casino action.',
+    provider: 'slotpgk.com',
+    title: 'slotpgk.com',
+    description: 'slotpgk.com is your premier destination for online gaming in PNG, offering a thrilling variety of slots, sports betting, and live dealer action.',
     type: 'Credit Card',
     promoLength: '1 Year',
     termsAndConditions: 'Special introductory rate for the first 3 months. For new and used vehicles.',
