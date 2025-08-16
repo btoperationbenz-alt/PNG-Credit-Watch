@@ -472,9 +472,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '34',
-    provider: 'pngkkk.com',
-    title: 'pngkkk.com',
-    description: 'Join pngkkk.com for a comprehensive online gaming platform with sports, slots, and live casino, tailored for PNG players.',
+    provider: 'spingini.com',
+    title: 'spingini.com',
+    description: 'Get ready to spin and win with spingini.com! Your new favorite spot in PNG for slots, jackpots, and non-stop gaming excitement. Join now and feel the magic!',
     type: 'Personal Loan',
     promoLength: '6 Months',
     termsAndConditions: 'Higher credit limit and rewards points. Annual fee applies.',
@@ -699,6 +699,8 @@ export const offers: CreditOffer[] = [
 
 
 
+
+    
 
     
 
