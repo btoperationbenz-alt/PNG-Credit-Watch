@@ -677,77 +677,184 @@ export const offers: CreditOffer[] = [
     promoText: 'New Register Free K60',
     welcomeBonusText: 'Welcome Bonus 80%',
   },
+  {
+    id: '50',
+    provider: 'pngmaster.com',
+    title: 'pngmaster.com',
+    description: 'Become a gaming master at pngmaster.com, with the best selection of slots and table games in PNG.',
+    type: 'Personal Loan',
+    promoLength: '6 Months',
+    termsAndConditions: 'Standard loan terms apply. Subject to credit approval.',
+    logoUrl: 'https://placehold.co/600x400.png',
+    promoText: 'New Register Free K70',
+    welcomeBonusText: 'Welcome Bonus 150%',
+  },
+  {
+    id: '51',
+    provider: 'royalpng.com',
+    title: 'royalpng.com',
+    description: 'Experience the royal treatment at royalpng.com. Exclusive games and VIP rewards await.',
+    type: 'Credit Card',
+    promoLength: '1 Year',
+    termsAndConditions: 'No annual fee for the first year. Minimum spend required.',
+    logoUrl: 'https://placehold.co/600x400.png',
+    promoText: 'New Register Free K100',
+    welcomeBonusText: 'Welcome Bonus 200%',
+  },
+  {
+    id: '52',
+    provider: 'fastwinpng.com',
+    title: 'fastwinpng.com',
+    description: 'Get your wins fast at fastwinpng.com! Instant payouts and exciting games.',
+    type: 'Business Loan',
+    promoLength: '3 Months',
+    termsAndConditions: 'Simplified application for fast approval. For registered businesses only.',
+    logoUrl: 'https://placehold.co/600x400.png',
+    promoText: 'New Register Free K50',
+    welcomeBonusText: 'Welcome Bonus 100%',
+  },
+  {
+    id: '53',
+    provider: 'pngbet.com',
+    title: 'pngbet.com',
+    description: 'The number one choice for sports betting in PNG. Bet on all your favorite games.',
+    type: 'Personal Loan',
+    promoLength: 'Any',
+    termsAndConditions: 'Competitive rates for all customers. Quick and easy online application.',
+    logoUrl: 'https://placehold.co/600x400.png',
+    promoText: 'New Register Free K80',
+    welcomeBonusText: 'Welcome Bonus 120%',
+  },
+  {
+    id: '54',
+    provider: 'luckypng.com',
+    title: 'luckypng.com',
+    description: 'Feeling lucky? Head to luckypng.com for huge jackpots and exciting promotions.',
+    type: 'Credit Card',
+    promoLength: '6 Months',
+    termsAndConditions: 'Earn cashback on all your purchases for the first 6 months.',
+    logoUrl: 'https://placehold.co/600x400.png',
+    promoText: 'New Register Free K77',
+    welcomeBonusText: 'Welcome Bonus 100%',
+  },
+  {
+    id: '55',
+    provider: 'pngstar.com',
+    title: 'pngstar.com',
+    description: 'Be a star at pngstar.com. Top games, great odds, and big wins.',
+    type: 'Business Loan',
+    promoLength: '1 Year',
+    termsAndConditions: 'Flexible repayment options for growing businesses.',
+    logoUrl: 'https://placehold.co/600x400.png',
+    promoText: 'New Register Free K90',
+    welcomeBonusText: 'Welcome Bonus 150%',
+  },
+  {
+    id: '56',
+    provider: 'niuginigame.com',
+    title: 'niuginigame.com',
+    description: 'The best of Niugini gaming is at niuginigame.com. Local favorites and international hits.',
+    type: 'Personal Loan',
+    promoLength: '3 Months',
+    termsAndConditions: 'Low introductory interest rate for the first 3 months.',
+    logoUrl: 'https://placehold.co/600x400.png',
+    promoText: 'New Register Free K65',
+    welcomeBonusText: 'Welcome Bonus 100%',
+  },
+  {
+    id: '57',
+    provider: 'pngpower.com',
+    title: 'pngpower.com',
+    description: 'Feel the power of winning at pngpower.com. High voltage games and powerful bonuses.',
+    type: 'Credit Card',
+    promoLength: '1 Year',
+    termsAndConditions: 'No annual fees, ever. Low interest rates.',
+    logoUrl: 'https://placehold.co/600x400.png',
+    promoText: 'New Register Free K50',
+    welcomeBonusText: 'Welcome Bonus 80%',
+  },
+  {
+    id: '58',
+    provider: 'kumulspin.com',
+    title: 'kumulspin.com',
+    description: 'Spin like a Kumul at kumulspin.com. Soar to new heights with our exciting slots.',
+    type: 'Business Loan',
+    promoLength: '6 Months',
+    termsAndConditions: 'Special financing for tourism and hospitality businesses.',
+    logoUrl: 'https://placehold.co/600x400.png',
+    promoText: 'New Register Free K100',
+    welcomeBonusText: 'Welcome Bonus 100%',
+  },
+  {
+    id: '59',
+    provider: 'pngking.com',
+    title: 'pngking.com',
+    description: 'Rule the reels at pngking.com. The king of online casinos in PNG.',
+    type: 'Personal Loan',
+    promoLength: 'Any',
+    termsAndConditions: 'Get a decision in minutes. Easy online application.',
+    logoUrl: 'https://placehold.co/600x400.png',
+    promoText: 'New Register Free K88',
+    welcomeBonusText: 'Welcome Bonus 188%',
+  },
+  {
+    id: '60',
+    provider: 'goldpng.com',
+    title: 'goldpng.com',
+    description: 'Go for gold at goldpng.com. Golden opportunities and big cash prizes.',
+    type: 'Credit Card',
+    promoLength: '1 Year',
+    termsAndConditions: 'Premium card with travel benefits and rewards.',
+    logoUrl: 'https://placehold.co/600x400.png',
+    promoText: 'New Register Free K150',
+    welcomeBonusText: 'Welcome Bonus 250%',
+  },
+  {
+    id: '61',
+    provider: 'pngace.com',
+    title: 'pngace.com',
+    description: 'Be an ace at pngace.com. Master the games and win big.',
+    type: 'Business Loan',
+    promoLength: 'Any',
+    termsAndConditions: 'Financing solutions for startups and entrepreneurs.',
+    logoUrl: 'https://placehold.co/600x400.png',
+    promoText: 'New Register Free K75',
+    welcomeBonusText: 'Welcome Bonus 100%',
+  },
+  {
+    id: '62',
+    provider: 'bigwinpng.com',
+    title: 'bigwinpng.com',
+    description: 'Chase the big wins at bigwinpng.com. Progressive jackpots and high-stakes games.',
+    type: 'Personal Loan',
+    promoLength: '6 Months',
+    termsAndConditions: 'Consolidate your debt with our low-interest loans.',
+    logoUrl: 'https://placehold.co/600x400.png',
+    promoText: 'New Register Free K100',
+    welcomeBonusText: 'Welcome Bonus 100%',
+  },
+  {
+    id: '63',
+    provider: 'pngrush.com',
+    title: 'pngrush.com',
+    description: 'Feel the rush at pngrush.com. Fast-paced games and instant wins.',
+    type: 'Credit Card',
+    promoLength: '3 Months',
+    termsAndConditions: '0% interest on purchases for the first 3 months.',
+    logoUrl: 'https://placehold.co/600x400.png',
+    promoText: 'New Register Free K50',
+    welcomeBonusText: 'Welcome Bonus 50%',
+  },
+  {
+    id: '64',
+    provider: 'pngjoy.com',
+    title: 'pngjoy.com',
+    description: 'Find your joy at pngjoy.com. Fun games and a friendly community.',
+    type: 'Business Loan',
+    promoLength: '1 Year',
+    termsAndConditions: 'Loans for community projects and non-profits.',
+    logoUrl: 'https://placehold.co/600x400.png',
+    promoText: 'New Register Free K60',
+    welcomeBonusText: 'Welcome Bonus 80%',
+  },
 ];
-
-    
-
-    
-
-
-
-
-    
-
-    
-
-    
-
-    
-
-    
-
-
-
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-
-
-
-
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
