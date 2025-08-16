@@ -331,7 +331,7 @@ export const offers: CreditOffer[] = [
     id: '23',
     provider: 'winpgk2.com',
     title: 'winpgk2.com',
-    description: 'winpgk2.com is the winning choice for online gaming in PNG, with a huge selection of slots, sports betting, and live casino games.',
+    description: 'winpgk2.com is your go-to online gaming hub in PNG, featuring a vast selection of slots, sports betting, and live dealer games.',
     type: 'Personal Loan',
     promoLength: '3 Months',
     termsAndConditions: 'Special introductory rate for the first 3 months. For new and used vehicles.',
@@ -420,9 +420,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '30',
-    provider: 'pngiii.com',
-    title: 'pngiii.com',
-    description: 'Join pngiii.com for a comprehensive online gaming platform with sports, slots, and live casino, tailored for PNG players.',
+    provider: 'kinaluck.com',
+    title: 'kinaluck.com',
+    description: 'kinaluck.com is your premier destination for online gaming in PNG, offering a thrilling variety of slots, sports betting, and live dealer action.',
     type: 'Business Loan',
     promoLength: '1 Year',
     termsAndConditions: 'Higher credit limit and rewards points. Annual fee applies.',
@@ -699,5 +699,7 @@ export const offers: CreditOffer[] = [
 
 
 
+
+    
 
     
