@@ -368,9 +368,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '26',
-    provider: 'pngggg.com',
-    title: 'pngggg.com',
-    description: 'Join pngggg.com for a comprehensive online gaming platform with sports, slots, and live casino, tailored for PNG players.',
+    provider: 'kayapng.com',
+    title: 'kayapng.com',
+    description: 'kayapng.com is your ultimate destination for online gaming in PNG, offering a thrilling variety of slots, sports betting, and live dealer action.',
     type: 'Credit Card',
     promoLength: 'Any',
     termsAndConditions: 'Higher credit limit and rewards points. Annual fee applies.',
