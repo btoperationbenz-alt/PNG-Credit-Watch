@@ -710,8 +710,8 @@ export const offers: CreditOffer[] = [
     promoLength: '3 Months',
     termsAndConditions: 'Simplified application for fast approval. For registered businesses only.',
     logoUrl: 'https://placehold.co/600x400.png',
-    promoText: 'New Register Free K50',
-    welcomeBonusText: 'Welcome Bonus 100%',
+    promoText: 'New Register Free K66',
+    welcomeBonusText: 'Welcome Bonus 58%',
   },
   {
     id: '53',
@@ -858,6 +858,7 @@ export const offers: CreditOffer[] = [
     welcomeBonusText: 'Welcome Bonus 80%',
   },
 ];
+
 
 
 
