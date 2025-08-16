@@ -124,17 +124,17 @@ export default function PngCreditProPage() {
                 prizes & climb VIP ranks. Play now, fun awaits!
               </p>
               <div className="mt-4 flex flex-wrap gap-2 items-center">
-                <div className="inline-flex items-center justify-center rounded-full border border-accent/80 bg-accent/30 text-white px-2 py-1 text-[10px] md:text-sm font-semibold backdrop-blur-sm">
+                <div className="inline-flex items-center justify-center rounded-full border border-accent/80 bg-accent/30 text-white px-2 py-1 text-[10px] font-semibold backdrop-blur-sm">
                   New Register Free K88
                 </div>
-                <div className="inline-flex items-center justify-center rounded-full border border-primary/80 bg-primary/30 text-white px-2 py-1 text-[10px] md:text-sm font-semibold backdrop-blur-sm">
+                <div className="inline-flex items-center justify-center rounded-full border border-primary/80 bg-primary/30 text-white px-2 py-1 text-[10px] font-semibold backdrop-blur-sm">
                   Welcome Bonus 200%
                 </div>
                 <Button
                   size="sm"
-                  className="bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow h-auto py-3 px-6 md:h-10 md:px-6 md:py-2.5"
+                  className="bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow h-auto py-3 px-6 text-sm"
                 >
-                  <Play className="mr-1 h-5 w-5 md:mr-2 md:h-4 md:w-4" />
+                  <Play className="mr-1 h-5 w-5" />
                   Play
                 </Button>
               </div>
