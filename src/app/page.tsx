@@ -81,7 +81,7 @@ export default function PngCreditProPage() {
       <div className="container py-8">
         <section className="text-center space-y-4 mb-12">
           <h2 className="text-5xl font-headline font-bold tracking-wider uppercase">
-            Unlock Your Financial Advantage
+            Free Credit No Deposit in Papua New Guinea (2025)
           </h2>
           <p className="text-muted-foreground text-xl font-body">
             Discover elite no-deposit credit opportunities in Papua New Guinea.
