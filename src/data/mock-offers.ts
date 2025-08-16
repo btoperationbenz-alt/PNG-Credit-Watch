@@ -58,7 +58,9 @@ export const offers: CreditOffer[] = [
 6. Documentation: Applicants must submit a business plan, financial statements (if available), and company registration documents.`,
     logoUrl: 'https://placehold.co/600x400.png',
     interestRate: '9% intro rate',
-    maxAmount: 'PGK 100,000'
+    maxAmount: 'PGK 100,000',
+    promoText: 'New Register Free K38',
+    welcomeBonusText: 'Welcome Bonus 100%',
   },
     {
     id: '4',
