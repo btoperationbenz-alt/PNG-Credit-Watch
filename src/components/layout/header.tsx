@@ -24,7 +24,7 @@ export default function Header() {
           <Link href="/" className="flex items-center gap-2">
             <Briefcase className="h-6 w-6 text-primary" />
             <span className="font-bold">PNG Free Credit</span>
-          </link>
+          </Link>
         </div>
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
           {navLinks.map(link => (
