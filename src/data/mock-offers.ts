@@ -277,9 +277,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '19',
-    provider: 'jdb4.com',
-    title: 'jdb4.com',
-    description: 'jdb4.com offers an extensive library of online slots and casino games, providing endless fun and big win potential in PNG.',
+    provider: 'kinaplay.com',
+    title: 'kinaplay.com',
+    description: 'kinaplay.com is the ultimate gaming destination for players in PNG, featuring a wide array of slots, table games, and live dealer experiences.',
     type: 'Personal Loan',
     promoLength: '3 Months',
     termsAndConditions: 'Special introductory rate for the first 3 months. For new and used vehicles.',
@@ -341,5 +341,7 @@ export const offers: CreditOffer[] = [
     welcomeBonusText: 'Welcome Bonus 200%',
   },
 ];
+
+    
 
     
