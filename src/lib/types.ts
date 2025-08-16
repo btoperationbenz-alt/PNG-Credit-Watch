@@ -10,4 +10,5 @@ export type CreditOffer = {
   interestRate?: string;
   maxAmount?: string;
   promoText?: string;
+  welcomeBonusText?: string;
 };

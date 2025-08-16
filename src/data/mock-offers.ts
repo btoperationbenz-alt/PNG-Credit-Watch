@@ -4,8 +4,8 @@ export const offers: CreditOffer[] = [
   {
     id: '1',
     provider: 'i1kina.com',
-    title: 'i1kina.com',
-    description: 'Experience the thrill of online gaming with i1kina.com! Your top destination in PNG for slots, jackpots, and endless entertainment. Join today and win big!',
+    title: 'Personal Loan - No Deposit',
+    description: "Experience the thrill of online gaming with i1kina.com! Your top destination in PNG for slots, jackpots, and endless entertainment. Join today and win big!",
     type: 'Personal Loan',
     promoLength: '3 Months',
     termsAndConditions: `1. Eligibility: This offer is available to new and existing Kina Bank customers who are residents of Papua New Guinea and are over 18 years of age.
@@ -20,6 +20,7 @@ export const offers: CreditOffer[] = [
     interestRate: '15% p.a.',
     maxAmount: 'PGK 50,000',
     promoText: 'New Register Free K38',
+    welcomeBonusText: 'Welcome Bonus 100%',
   },
   {
     id: '2',
