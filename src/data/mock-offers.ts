@@ -641,9 +641,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '47',
-    provider: 'jdb18.com',
-    title: 'jdb18.com',
-    description: 'jdb18.com offers an extensive library of online slots and casino games, providing endless fun and big win potential in PNG.',
+    provider: 'surepng.com',
+    title: 'surepng.com',
+    description: 'surepng.com offers an extensive library of online slots and casino games, providing endless fun and big win potential in PNG.',
     type: 'Credit Card',
     promoLength: '1 Month',
     termsAndConditions: 'Special introductory rate for the first 3 months. For new and used vehicles.',
