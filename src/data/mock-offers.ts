@@ -151,9 +151,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '9',
-    provider: 'wew.bet',
-    title: 'wew.bet',
-    description: 'Experience top-tier online gaming at wew.bet, offering a diverse range of slots and casino games for all players in PNG.',
+    provider: 'twcpgk.com',
+    title: 'twcpgk.com',
+    description: 'Experience top-tier online gaming at twcpgk.com, offering a diverse range of slots and casino games for all players in PNG.',
     type: 'Business Loan',
     promoLength: '6 Months',
     termsAndConditions: 'Designed for micro-enterprises. Simplified application process.',
