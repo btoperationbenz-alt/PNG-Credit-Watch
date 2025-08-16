@@ -20,7 +20,7 @@ export const offers: CreditOffer[] = [
     logoUrl: 'https://placehold.co/600x400.png',
     interestRate: '15% p.a.',
     maxAmount: 'PGK 50,000',
-    promoText: 'New Register Free K38',
+    promoText: 'New Register Free K88',
     welcomeBonusText: 'Welcome Bonus 100%',
   },
   {
@@ -126,9 +126,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '7',
-    provider: 'ag.bet',
-    title: 'ag.bet',
-    description: 'Join ag.bet for an unparalleled gaming experience in Papua New Guinea, featuring the latest slots and live casino action.',
+    provider: 'pgk8.online',
+    title: 'pgk8.online',
+    description: 'pgk8.online is your premier destination for online gaming in PNG, offering a wide selection of slots and casino games.',
     type: 'Personal Loan',
     promoLength: 'Any',
     termsAndConditions: 'Standard Westpac personal loan terms apply. Subject to credit check.',
