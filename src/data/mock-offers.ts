@@ -329,9 +329,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '23',
-    provider: 'jdb6.com',
-    title: 'jdb6.com',
-    description: 'jdb6.com offers an extensive library of online slots and casino games, providing endless fun and big win potential in PNG.',
+    provider: 'winpgk2.com',
+    title: 'winpgk2.com',
+    description: 'winpgk2.com is the winning choice for online gaming in PNG, with a huge selection of slots, sports betting, and live casino games.',
     type: 'Personal Loan',
     promoLength: '3 Months',
     termsAndConditions: 'Special introductory rate for the first 3 months. For new and used vehicles.',
