@@ -872,16 +872,16 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '66',
-    provider: 'bilumbet.com',
-    title: 'bilumbet.com',
-    description: 'Carry your luck with bilumbet.com. Traditional PNG spirit with modern gaming.',
+    provider: 'png77.com',
+    title: 'png77.com',
+    description: 'png77.com offers the best of online gaming in PNG, with a massive selection of slots, sports betting, and live casino action.',
     type: 'Credit Card',
     promoLength: 'Any',
     termsAndConditions: 'Special edition card with unique PNG designs. No annual fee.',
     logoUrl: 'https://placehold.co/600x400.png',
     interestRate: '19.5% p.a.',
-    promoText: 'New Register Free K50',
-    welcomeBonusText: 'Welcome Bonus 75%',
+    promoText: 'New Register Free K199',
+    welcomeBonusText: 'Welcome Bonus 70%',
   },
   {
     id: '67',
@@ -924,3 +924,4 @@ export const offers: CreditOffer[] = [
 ];
 
   
+
