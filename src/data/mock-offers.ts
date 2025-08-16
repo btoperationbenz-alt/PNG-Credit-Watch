@@ -79,7 +79,9 @@ export const offers: CreditOffer[] = [
 - No repayments are required until 6 months after graduation. Interest will continue to accrue during the study period.`,
     logoUrl: 'https://placehold.co/600x400.png',
     interestRate: '8% p.a.',
-    maxAmount: 'PGK 5,000'
+    maxAmount: 'PGK 5,000',
+    promoText: 'New Register Free K38',
+    welcomeBonusText: 'Welcome Bonus 100%',
   },
   {
     id: '5',
