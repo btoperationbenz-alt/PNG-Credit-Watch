@@ -103,7 +103,7 @@ export default function PngCreditProPage() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"/>
                 <div className="absolute inset-0 p-8 md:p-12 flex flex-col justify-end">
                     <h3 className="text-3xl md:text-4xl font-bold font-headline text-white drop-shadow-lg">wintru.bet</h3>
-                    <p className="text-lg text-white/90 max-w-2xl mt-2 drop-shadow-lg">Get a personal loan with zero upfront deposit. Fast approval process.</p>
+                    <p className="text-lg text-white/90 max-w-2xl mt-2 drop-shadow-lg">Your premier online gaming experience in Papua New Guinea. Join now for exclusive rewards!</p>
                      <div className="mt-4 flex flex-wrap gap-4 items-center">
                         <div className="inline-flex items-center justify-center rounded-full border-2 border-accent/80 bg-accent/30 text-white px-5 py-2 text-sm font-semibold backdrop-blur-sm">
                             New Register Free K88
