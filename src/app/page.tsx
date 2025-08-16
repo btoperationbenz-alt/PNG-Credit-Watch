@@ -11,7 +11,6 @@ import {
   Bookmark,
 } from 'lucide-react';
 import type { CreditOffer } from '@/lib/types';
-import { offers as allOffers } from '@/data/mock-offers';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import {
@@ -37,7 +36,8 @@ const offerTypes = ['Personal Loan', 'Credit Card', 'Business Loan'];
 const promoLengths = ['Any', '1 Month', '3 Months', '6 Months', '1 Year'];
 
 export default function PngCreditProPage() {
-  const [offers, setOffers] = React.useState<CreditOffer[]>(allOffers);
+  const [allOffers, setAllOffers] = React.useState<CreditOffer[]>([]);
+  const [offers, setOffers] = React.useState<CreditOffer[]>([]);
   const [searchTerm, setSearchTerm] = React.useState('');
   const [selectedType, setSelectedType] = React.useState('All');
   const [selectedPromoLength, setSelectedPromoLength] = React.useState('Any');
@@ -46,6 +46,21 @@ export default function PngCreditProPage() {
   const [selectedOffer, setSelectedOffer] = React.useState<CreditOffer | null>(null);
   const [isModalOpen, setIsModalOpen] = React.useState(false);
   const [isSheetOpen, setIsSheetOpen] = React.useState(false);
+  
+  React.useEffect(() => {
+    const fetchOffers = async () => {
+      try {
+        const response = await fetch('/api/offers');
+        const data = await response.json();
+        setAllOffers(data);
+        setOffers(data);
+      } catch (error) {
+        console.error('Failed to fetch offers:', error);
+      }
+    };
+    fetchOffers();
+  }, []);
+
 
   React.useEffect(() => {
     const filtered = allOffers.filter(offer => {
@@ -58,7 +73,7 @@ export default function PngCreditProPage() {
       return matchesSearch && matchesType && matchesPromo;
     });
     setOffers(filtered);
-  }, [searchTerm, selectedType, selectedPromoLength]);
+  }, [searchTerm, selectedType, selectedPromoLength, allOffers]);
 
   const handleSaveToggle = (offerId: string) => {
     setSavedOfferIds(prev => {
