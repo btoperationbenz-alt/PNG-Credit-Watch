@@ -485,9 +485,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '35',
-    provider: 'jdb12.com',
-    title: 'jdb12.com',
-    description: 'jdb12.com offers an extensive library of online slots and casino games, providing endless fun and big win potential in PNG.',
+    provider: 'slotpgk.com',
+    title: 'slotpgk.com',
+    description: 'slotpgk.com offers an extensive library of online slots and casino games, providing endless fun and big win potential in PNG.',
     type: 'Credit Card',
     promoLength: '1 Year',
     termsAndConditions: 'Special introductory rate for the first 3 months. For new and used vehicles.',
@@ -699,6 +699,8 @@ export const offers: CreditOffer[] = [
 
 
 
+
+    
 
     
 
