@@ -550,9 +550,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '40',
-    provider: 'pngnnn.com',
-    title: 'pngnnn.com',
-    description: 'pngnnn.com is your premier choice for online gaming in PNG. Enjoy a wide selection of slots and sports betting options today!',
+    provider: 'rugby675.com',
+    title: 'rugby675.com',
+    description: 'rugby675.com brings the excitement of sports betting to PNG, focusing on rugby and other popular sports, alongside a great selection of casino games.',
     type: 'Personal Loan',
     promoLength: '1 Year',
     termsAndConditions: 'Higher credit limit and rewards points. Annual fee applies.',
