@@ -298,8 +298,8 @@ export const offers: CreditOffer[] = [
     termsAndConditions: 'Higher credit limit and rewards points. Annual fee applies.',
     logoUrl: 'https://placehold.co/600x400.png',
     interestRate: '20% p.a.',
-    promoText: 'New Register Free K88',
-    welcomeBonusText: 'Welcome Bonus 200%',
+    promoText: 'New Register Free K133',
+    welcomeBonusText: 'Welcome Bonus 100%',
   },
   {
     id: '21',
@@ -345,4 +345,5 @@ export const offers: CreditOffer[] = [
     
 
     
+
 
