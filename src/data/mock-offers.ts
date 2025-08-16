@@ -251,9 +251,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '17',
-    provider: 'jdb3.com',
-    title: 'jdb3.com',
-    description: 'jdb3.com offers an extensive library of online slots and casino games, providing endless fun and big win potential in PNG.',
+    provider: 'gwin77png.com',
+    title: 'gwin77png.com',
+    description: 'gwin77png.com is your premier choice for online gaming in PNG. Enjoy a wide selection of slots and sports betting options today!',
     type: 'Personal Loan',
     promoLength: '3 Months',
     termsAndConditions: 'Special introductory rate for the first 3 months. For new and used vehicles.',
