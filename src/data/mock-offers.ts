@@ -775,9 +775,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '58',
-    provider: 'kumulspin.com',
-    title: 'kumulspin.com',
-    description: 'Spin like a Kumul at kumulspin.com. Soar to new heights with our exciting slots.',
+    provider: 'pauawin.com',
+    title: 'pauawin.com',
+    description: 'Spin like a Kumul at pauawin.com. Soar to new heights with our exciting slots.',
     type: 'Business Loan',
     promoLength: '6 Months',
     termsAndConditions: 'Special financing for tourism and hospitality businesses.',
