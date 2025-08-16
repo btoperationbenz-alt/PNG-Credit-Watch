@@ -65,7 +65,7 @@ export default function OfferCard({
         </div>
       </CardContent>
       <CardFooter className="p-6 pt-0">
-        <Button onClick={onViewDetails} className="w-full bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow text-lg py-6">
+        <Button onClick={onViewDetails} className="w-full bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow text-xl py-6 h-auto">
           <Play className="mr-2 h-5 w-5" />
           Play
         </Button>
