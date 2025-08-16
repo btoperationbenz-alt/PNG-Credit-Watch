@@ -106,9 +106,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '6',
-    provider: 'agsloto.com',
-    title: 'agsloto.com',
-    description: 'agsloto.com is your premier choice for online gaming in PNG. Enjoy a wide selection of slots and sports betting options today!',
+    provider: 'pngspin7.com',
+    title: 'pngspin7.com',
+    description: 'pngspin7.com is your premier choice for online gaming in PNG. Enjoy a wide selection of slots and sports betting options today!',
     type: 'Business Loan',
     promoLength: '3 Months',
     termsAndConditions: `The Agri-Business Growth Fund is a specialized BSP product.
