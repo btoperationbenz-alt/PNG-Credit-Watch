@@ -342,9 +342,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '24',
-    provider: 'pngfff.com',
-    title: 'pngfff.com',
-    description: 'pngfff.com is your premier choice for online gaming in PNG. Enjoy a wide selection of slots and sports betting options today!',
+    provider: 'png28.com',
+    title: 'png28.com',
+    description: 'png28.com is your go-to online gaming hub in PNG, featuring a vast selection of slots, sports betting, and live dealer games.',
     type: 'Business Loan',
     promoLength: '6 Months',
     termsAndConditions: 'Higher credit limit and rewards points. Annual fee applies.',
