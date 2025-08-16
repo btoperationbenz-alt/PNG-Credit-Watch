@@ -576,9 +576,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '42',
-    provider: 'pngooo.com',
-    title: 'pngooo.com',
-    description: 'Join pngooo.com for a comprehensive online gaming platform with sports, slots, and live casino, tailored for PNG players.',
+    provider: 'playkaya9.com',
+    title: 'playkaya9.com',
+    description: 'Join playkaya9.com for a comprehensive online gaming platform with sports, slots, and live casino, tailored for PNG players.',
     type: 'Business Loan',
     promoLength: '1 Month',
     termsAndConditions: 'Higher credit limit and rewards points. Annual fee applies.',
@@ -725,6 +725,8 @@ export const offers: CreditOffer[] = [
 
 
 
+
+    
 
     
 
