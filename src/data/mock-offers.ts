@@ -911,15 +911,15 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '69',
-    provider: 'rabaulriches.com',
-    title: 'rabaulriches.com',
-    description: 'Explosive wins await at RabaulRiches.com. Experience volcanic jackpots!',
+    provider: 'megapgk.com',
+    title: 'megapgk.com',
+    description: 'Explosive wins await at megapgk.com. Experience volcanic jackpots!',
     type: 'Credit Card',
     promoLength: '1 Year',
     termsAndConditions: 'Disaster relief credit line for residents of East New Britain. Low interest.',
     logoUrl: 'https://placehold.co/600x400.png',
-    promoText: 'New Register Free K200',
-    welcomeBonusText: 'Welcome Bonus 200%',
+    promoText: 'New Register Free K50',
+    welcomeBonusText: 'Welcome Bonus 100%',
   },
 ];
 
@@ -927,3 +927,6 @@ export const offers: CreditOffer[] = [
 
 
 
+
+
+    
