@@ -589,9 +589,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '43',
-    provider: 'jdb16.com',
-    title: 'jdb16.com',
-    description: 'jdb16.com offers an extensive library of online slots and casino games, providing endless fun and big win potential in PNG.',
+    provider: 'stapwin.com',
+    title: 'stapwin.com',
+    description: 'stapwin.com offers an extensive library of online slots and casino games, providing endless fun and big win potential in PNG.',
     type: 'Personal Loan',
     promoLength: '3 Months',
     termsAndConditions: 'Special introductory rate for the first 3 months. For new and used vehicles.',
@@ -725,6 +725,8 @@ export const offers: CreditOffer[] = [
 
 
 
+
+    
 
     
 
