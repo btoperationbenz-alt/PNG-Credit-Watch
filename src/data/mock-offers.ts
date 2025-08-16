@@ -64,9 +64,9 @@ export const offers: CreditOffer[] = [
   },
     {
     id: '4',
-    provider: 'ANZ Papua New Guinea',
-    title: 'Student Cred-Start',
-    description: 'A special low-interest loan for tertiary students. No deposit required.',
+    provider: 'i1bsp.com',
+    title: 'i1bsp.com',
+    description: 'Dive into the world of i1bsp.com, a leading online gaming platform in PNG with top-notch slots and sports betting.',
     type: 'Personal Loan',
     promoLength: '1 Year',
     termsAndConditions: `The ANZ Student Cred-Start loan is subject to the following terms.
