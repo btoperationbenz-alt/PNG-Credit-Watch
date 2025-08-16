@@ -189,9 +189,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '12',
-    provider: 'jdb12.com',
-    title: 'jdb12.com',
-    description: 'jdb12.com offers an extensive library of online slots and casino games, providing endless fun and big win potential in PNG.',
+    provider: 'slotpgk.com',
+    title: 'slotpgk.com',
+    description: 'slotpgk.com offers an extensive library of online slots and casino games, providing endless fun and big win potential in PNG.',
     type: 'Business Loan',
     promoLength: 'Any',
     termsAndConditions: 'The financed asset serves as security. Terms up to 5 years.',
