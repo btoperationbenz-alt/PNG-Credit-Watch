@@ -511,9 +511,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '37',
-    provider: 'jdb13.com',
-    title: 'jdb13.com',
-    description: 'jdb13.com offers an extensive library of online slots and casino games, providing endless fun and big win potential in PNG.',
+    provider: 'winguinea.com',
+    title: 'winguinea.com',
+    description: 'Win big with winguinea.com! The premier online gaming destination in PNG, offering a huge selection of slots, sports betting, and live casino games.',
     type: 'Personal Loan',
     promoLength: '1 Month',
     termsAndConditions: 'Special introductory rate for the first 3 months. For new and used vehicles.',
