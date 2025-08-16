@@ -722,7 +722,7 @@ export const offers: CreditOffer[] = [
     promoLength: 'Any',
     termsAndConditions: 'Competitive rates for all customers. Quick and easy online application.',
     logoUrl: 'https://placehold.co/600x400.png',
-    promoText: 'New Register Free K80',
+    promoText: 'New Register Free K30',
     welcomeBonusText: 'Welcome Bonus 120%',
   },
   {
@@ -858,6 +858,7 @@ export const offers: CreditOffer[] = [
     welcomeBonusText: 'Welcome Bonus 80%',
   },
 ];
+
 
 
 
