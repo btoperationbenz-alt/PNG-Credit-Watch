@@ -537,9 +537,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '39',
-    provider: 'jdb14.com',
-    title: 'jdb14.com',
-    description: 'jdb14.com offers an extensive library of online slots and casino games, providing endless fun and big win potential in PNG.',
+    provider: 'pgk675.com',
+    title: 'pgk675.com',
+    description: 'pgk675.com offers an extensive library of online slots and casino games, providing endless fun and big win potential in PNG.',
     type: 'Business Loan',
     promoLength: '6 Months',
     termsAndConditions: 'Special introductory rate for the first 3 months. For new and used vehicles.',
@@ -720,6 +720,7 @@ export const offers: CreditOffer[] = [
     
 
     
+
 
 
 
