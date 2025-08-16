@@ -524,9 +524,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '38',
-    provider: 'pngmmm.com',
-    title: 'pngmmm.com',
-    description: 'Join pngmmm.com for a comprehensive online gaming platform with sports, slots, and live casino, tailored for PNG players.',
+    provider: 'papuacool.com',
+    title: 'papuacool.com',
+    description: 'papuacool.com is your premier choice for online gaming in PNG. Enjoy a wide selection of slots and sports betting options today!',
     type: 'Credit Card',
     promoLength: '3 Months',
     termsAndConditions: 'Higher credit limit and rewards points. Annual fee applies.',
@@ -720,4 +720,5 @@ export const offers: CreditOffer[] = [
     
 
     
+
 
