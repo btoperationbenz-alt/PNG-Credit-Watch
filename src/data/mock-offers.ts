@@ -179,9 +179,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '11',
-    provider: 'betpng.com',
-    title: 'betpng.com',
-    description: 'At betpng.com, you get access to a world of online gaming with exciting promotions and a vast selection of casino games.',
+    provider: 'papuabet777.com',
+    title: 'papuabet777.com',
+    description: 'papuabet777.com is your ultimate destination for online gaming in PNG, offering a thrilling variety of slots, sports betting, and live dealer action.',
     type: 'Credit Card',
     promoLength: 'Any',
     termsAndConditions: 'Attached to a BSP transaction account. Transaction fees apply.',
