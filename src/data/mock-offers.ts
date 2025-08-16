@@ -394,9 +394,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '28',
-    provider: 'pnghhh.com',
-    title: 'pnghhh.com',
-    description: 'pnghhh.com is your premier choice for online gaming in PNG. Enjoy a wide selection of slots and sports betting options today!',
+    provider: 'lewaspin.com',
+    title: 'lewaspin.com',
+    description: 'Spin your way to big wins with lewaspin.com! The top online casino in PNG for exciting slots, table games, and massive jackpots.',
     type: 'Personal Loan',
     promoLength: '3 Months',
     termsAndConditions: 'Higher credit limit and rewards points. Annual fee applies.',
