@@ -54,7 +54,6 @@ export default function OfferCard({
         </div>
       <CardContent className="flex-1 p-6 -mt-12 z-10">
          <CardTitle className="text-2xl font-bold font-headline mb-2">{offer.title}</CardTitle>
-          <CardDescription className="text-muted-foreground text-sm mb-4">{offer.provider}</CardDescription>
         <p className="text-sm text-muted-foreground h-12">{offer.description}</p>
         <div className="mt-4 flex flex-wrap gap-2">
            <div className="inline-flex items-center justify-center rounded-full border border-accent/50 bg-accent/20 text-white px-3 py-1 text-xs font-semibold">
