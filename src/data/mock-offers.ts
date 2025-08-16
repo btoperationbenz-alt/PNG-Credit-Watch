@@ -686,8 +686,8 @@ export const offers: CreditOffer[] = [
     promoLength: '6 Months',
     termsAndConditions: 'Standard loan terms apply. Subject to credit approval.',
     logoUrl: 'https://placehold.co/600x400.png',
-    promoText: 'New Register Free K58',
-    welcomeBonusText: 'Welcome Bonus 65%',
+    promoText: 'New Register Free K70',
+    welcomeBonusText: 'Welcome Bonus 150%',
   },
   {
     id: '51',
@@ -699,7 +699,7 @@ export const offers: CreditOffer[] = [
     termsAndConditions: 'No annual fee for the first year. Minimum spend required.',
     logoUrl: 'https://placehold.co/600x400.png',
     promoText: 'New Register Free K80',
-    welcomeBonusText: 'Welcome Bonus 50%',
+    welcomeBonusText: 'Welcome Bonus 200%',
   },
   {
     id: '52',
@@ -710,8 +710,8 @@ export const offers: CreditOffer[] = [
     promoLength: '3 Months',
     termsAndConditions: 'Simplified application for fast approval. For registered businesses only.',
     logoUrl: 'https://placehold.co/600x400.png',
-    promoText: 'New Register Free K66',
-    welcomeBonusText: 'Welcome Bonus 58%',
+    promoText: 'New Register Free K50',
+    welcomeBonusText: 'Welcome Bonus 100%',
   },
   {
     id: '53',
@@ -722,7 +722,7 @@ export const offers: CreditOffer[] = [
     promoLength: 'Any',
     termsAndConditions: 'Competitive rates for all customers. Quick and easy online application.',
     logoUrl: 'https://placehold.co/600x400.png',
-    promoText: 'New Register Free K30',
+    promoText: 'New Register Free K80',
     welcomeBonusText: 'Welcome Bonus 120%',
   },
   {
@@ -734,8 +734,8 @@ export const offers: CreditOffer[] = [
     promoLength: '6 Months',
     termsAndConditions: 'Earn cashback on all your purchases for the first 6 months.',
     logoUrl: 'https://placehold.co/600x400.png',
-    promoText: 'New Register Free K99',
-    welcomeBonusText: 'Welcome Bonus 50%',
+    promoText: 'New Register Free K77',
+    welcomeBonusText: 'Welcome Bonus 100%',
   },
   {
     id: '55',
@@ -746,8 +746,8 @@ export const offers: CreditOffer[] = [
     promoLength: '1 Year',
     termsAndConditions: 'Flexible repayment options for growing businesses.',
     logoUrl: 'https://placehold.co/600x400.png',
-    promoText: 'New Register Free K88',
-    welcomeBonusText: 'Welcome Bonus 100%',
+    promoText: 'New Register Free K90',
+    welcomeBonusText: 'Welcome Bonus 150%',
   },
   {
     id: '56',
@@ -758,7 +758,7 @@ export const offers: CreditOffer[] = [
     promoLength: '3 Months',
     termsAndConditions: 'Low introductory interest rate for the first 3 months.',
     logoUrl: 'https://placehold.co/600x400.png',
-    promoText: 'New Register Free K65',
+    promoText: 'New Register Free K68',
     welcomeBonusText: 'Welcome Bonus 100%',
   },
   {
