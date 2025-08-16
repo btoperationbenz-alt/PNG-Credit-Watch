@@ -15,7 +15,7 @@ import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { Separator } from '@/components/ui/separator';
 import type { CreditOffer } from '@/lib/types';
 import { summarizeTerms } from '@/ai/flows/summarize-terms';
-import { Loader, Sparkles, Terminal } from 'lucide-react';
+import { Loader, Sparkles, ScrollText } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 interface OfferDetailsModalProps {
@@ -40,7 +40,7 @@ export default function OfferDetailsModal({ offer, isOpen, onOpenChange }: Offer
       toast({
         variant: "destructive",
         title: "Summarization Failed",
-        description: "Could not generate summary. Please try again later.",
+        description: "Could not generate summary. The arcane energies are unstable.",
       })
     } finally {
       setIsLoading(false);
@@ -57,56 +57,57 @@ export default function OfferDetailsModal({ offer, isOpen, onOpenChange }: Offer
 
   return (
     <Dialog open={isOpen} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-3xl">
+      <DialogContent className="max-w-3xl bg-card/90 backdrop-blur-sm border-primary/20">
         <DialogHeader>
-          <DialogTitle className="text-2xl font-headline">{offer.title}</DialogTitle>
+          <DialogTitle className="text-2xl font-headline text-primary drop-shadow-[0_0_4px_hsl(var(--primary))]">{offer.title}</DialogTitle>
           <DialogDescription>
-            Provided by {offer.provider}
+            A quest from {offer.provider}
           </DialogDescription>
         </DialogHeader>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-h-[70vh]">
           <div className="flex flex-col gap-4">
-            <h3 className="font-semibold text-lg">Terms & Conditions</h3>
-            <ScrollArea className="h-96 rounded-md border p-4 text-sm whitespace-pre-wrap font-mono">
+            <h3 className="font-semibold font-headline text-lg">The Fine Print Scroll</h3>
+            <ScrollArea className="h-96 rounded-md border p-4 text-sm whitespace-pre-wrap font-mono bg-background/50">
               {offer.termsAndConditions}
             </ScrollArea>
           </div>
           <div className="flex flex-col gap-4">
             <div className="flex justify-between items-center">
-                <h3 className="font-semibold text-lg">Plain Language Summary</h3>
-                <Button onClick={handleSummarize} disabled={isLoading} size="sm">
+                <h3 className="font-semibold font-headline text-lg">AI-Powered Scrying</h3>
+                <Button onClick={handleSummarize} disabled={isLoading} size="sm" className="bg-accent hover:bg-accent/90 shadow-lg shadow-accent/30">
                     {isLoading ? (
                         <Loader className="mr-2 h-4 w-4 animate-spin" />
                     ) : (
                         <Sparkles className="mr-2 h-4 w-4" />
                     )}
-                    {isLoading ? 'Summarizing...' : 'Generate Summary'}
+                    {isLoading ? 'Scrying...' : 'Generate Summary'}
                 </Button>
             </div>
-            <ScrollArea className="h-96 rounded-md border p-4">
+            <ScrollArea className="h-96 rounded-md border p-4 bg-background/50">
               {isLoading && (
                 <div className="space-y-3">
-                  <Skeleton className="h-4 w-full" />
-                  <Skeleton className="h-4 w-full" />
-                  <Skeleton className="h-4 w-5/6" />
-                  <Skeleton className="h-4 w-full" />
-                  <Skeleton className="h-4 w-4/6" />
+                  <Skeleton className="h-4 w-full bg-muted/50" />
+                  <Skeleton className="h-4 w-full bg-muted/50" />
+                  <Skeleton className="h-4 w-5/6 bg-muted/50" />
+                  <Skeleton className="h-4 w-full bg-muted/50" />
+                  <Skeleton className="h-4 w-4/6 bg-muted/50" />
                 </div>
               )}
               {summary && (
-                 <Alert>
-                    <Sparkles className="h-4 w-4" />
-                    <AlertTitle>AI-Generated Summary</AlertTitle>
+                 <Alert className="bg-transparent border-accent/50">
+                    <Sparkles className="h-4 w-4 text-accent" />
+                    <AlertTitle className="text-accent">Summary from the Oracle</AlertTitle>
                     <AlertDescription>
-                        <p className="text-sm text-foreground">{summary}</p>
-                        <Separator className="my-2" />
-                        <p className="text-xs text-muted-foreground">This is an AI-generated summary. Please review the full terms and conditions for complete details.</p>
+                        <p className="text-foreground">{summary}</p>
+                        <Separator className="my-2 bg-border/50" />
+                        <p className="text-xs text-muted-foreground">This summary was generated by an AI Oracle. Always consult the original scroll for the complete incantation.</p>
                     </AlertDescription>
                 </Alert>
               )}
               {!isLoading && !summary && (
                 <div className="flex flex-col items-center justify-center h-full text-center">
-                    <p className="text-muted-foreground">Click "Generate Summary" to get an easy-to-understand overview of the terms using AI.</p>
+                    <ScrollText className="h-12 w-12 text-muted-foreground/50 mb-4" />
+                    <p className="text-muted-foreground">Click "Generate Summary" to have the AI Oracle decipher the ancient text for you.</p>
                 </div>
               )}
             </ScrollArea>
