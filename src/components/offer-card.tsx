@@ -56,9 +56,12 @@ export default function OfferCard({
          <CardTitle className="text-xl font-bold font-headline mb-1">{offer.title}</CardTitle>
           <CardDescription className="text-muted-foreground text-sm mb-3">{offer.provider}</CardDescription>
         <p className="text-sm text-muted-foreground h-10">{offer.description}</p>
-        <div className="mt-2">
-           <div className="inline-flex items-center justify-center rounded-full border border-accent/50 bg-accent/20 text-accent-foreground px-4 py-1 text-sm font-semibold">
-                New Register Free K88, Welcom Bonus200%
+        <div className="mt-4 flex flex-wrap gap-2">
+           <div className="inline-flex items-center justify-center rounded-full border border-accent/50 bg-accent/20 text-accent-foreground px-3 py-1 text-xs font-semibold">
+                New Register Free K88
+            </div>
+            <div className="inline-flex items-center justify-center rounded-full border border-primary/50 bg-primary/20 text-primary-foreground px-3 py-1 text-xs font-semibold">
+                Welcome Bonus 200%
             </div>
         </div>
       </CardContent>
