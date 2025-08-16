@@ -134,7 +134,9 @@ export const offers: CreditOffer[] = [
     termsAndConditions: 'Standard Westpac personal loan terms apply. Subject to credit check.',
     logoUrl: 'https://placehold.co/600x400.png',
     interestRate: '18% p.a.',
-    maxAmount: 'PGK 30,000'
+    maxAmount: 'PGK 30,000',
+    promoText: 'New Register Free K68',
+    welcomeBonusText: 'Welcome Bonus 100%',
   },
   {
     id: '8',
