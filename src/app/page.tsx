@@ -81,7 +81,7 @@ export default function PngCreditProPage() {
       <div className="container py-8">
         <section className="text-center space-y-4 mb-12">
           <h2 className="text-5xl font-headline font-bold tracking-wider uppercase">
-            Unlock Your <span className="text-primary drop-shadow-[0_0_8px_hsl(var(--primary))]">Financial Advantage</span>
+            Unlock Your Financial Advantage
           </h2>
           <p className="text-muted-foreground text-xl font-body">
             Discover elite no-deposit credit opportunities in Papua New Guinea.
