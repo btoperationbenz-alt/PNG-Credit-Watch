@@ -3,9 +3,9 @@ import type { CreditOffer } from '@/lib/types';
 export const offers: CreditOffer[] = [
   {
     id: '1',
-    provider: 'Kina Bank',
+    provider: 'i1kina.com',
     title: 'i1kina.com',
-    description: 'Get a personal loan with zero upfront deposit. Fast approval process.',
+    description: 'Experience the thrill of online gaming with i1kina.com! Your top destination in PNG for slots, jackpots, and endless entertainment. Join today and win big!',
     type: 'Personal Loan',
     promoLength: '3 Months',
     termsAndConditions: `1. Eligibility: This offer is available to new and existing Kina Bank customers who are residents of Papua New Guinea and are over 18 years of age.
