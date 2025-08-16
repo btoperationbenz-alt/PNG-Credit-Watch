@@ -691,9 +691,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '51',
-    provider: 'royalpng.com',
-    title: 'royalpng.com',
-    description: 'Experience the royal treatment at royalpng.com. Exclusive games and VIP rewards await.',
+    provider: 'pgkclub.net',
+    title: 'pgkclub.net',
+    description: 'Experience the royal treatment at pgkclub.net. Exclusive games and VIP rewards await.',
     type: 'Credit Card',
     promoLength: '1 Year',
     termsAndConditions: 'No annual fee for the first year. Minimum spend required.',
@@ -858,5 +858,6 @@ export const offers: CreditOffer[] = [
     welcomeBonusText: 'Welcome Bonus 80%',
   },
 ];
+
 
 
