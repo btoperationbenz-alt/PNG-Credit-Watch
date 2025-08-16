@@ -498,9 +498,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '36',
-    provider: 'pnglll.com',
-    title: 'pnglll.com',
-    description: 'pnglll.com is your premier choice for online gaming in PNG. Enjoy a wide selection of slots and sports betting options today!',
+    provider: '675win.net',
+    title: '675win.net',
+    description: 'Step into 675win.net, Papua New Guinea\'s top spot for online gaming. Enjoy a wide selection of slots and sports betting options today!',
     type: 'Business Loan',
     promoLength: 'Any',
     termsAndConditions: 'Higher credit limit and rewards points. Annual fee applies.',
@@ -667,9 +667,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '49',
-    provider: 'jdb12.com',
-    title: 'jdb12.com',
-    description: 'jdb12.com offers an extensive library of online slots and casino games, providing endless fun and big win potential in PNG.',
+    provider: 'papuaspin.com',
+    title: 'papuaspin.com',
+    description: 'papuaspin.com offers the best of online gaming in PNG, with a massive selection of slots, sports betting, and live casino action.',
     type: 'Business Loan',
     promoLength: 'Any',
     termsAndConditions: 'The financed asset serves as security. Terms up to 5 years.',
@@ -696,6 +696,8 @@ export const offers: CreditOffer[] = [
 
 
 
+
+    
 
     
 
