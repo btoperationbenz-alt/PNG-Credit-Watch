@@ -158,7 +158,9 @@ export const offers: CreditOffer[] = [
     promoLength: '6 Months',
     termsAndConditions: 'Designed for micro-enterprises. Simplified application process.',
     logoUrl: 'https://placehold.co/600x400.png',
-    maxAmount: 'PGK 15,000'
+    maxAmount: 'PGK 15,000',
+    promoText: 'New Register Free K30',
+    welcomeBonusText: 'Welcome Bonus 70%',
   },
   {
     id: '10',
