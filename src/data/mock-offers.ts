@@ -667,9 +667,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '49',
-    provider: 'papuaspin.com',
-    title: 'papuaspin.com',
-    description: 'papuaspin.com offers the best of online gaming in PNG, with a massive selection of slots, sports betting, and live casino action.',
+    provider: 'papuavip.com',
+    title: 'papuavip.com',
+    description: 'papuavip.com offers the best of online gaming in PNG, with a massive selection of slots, sports betting, and live casino action.',
     type: 'Business Loan',
     promoLength: 'Any',
     termsAndConditions: 'The financed asset serves as security. Terms up to 5 years.',
@@ -725,6 +725,8 @@ export const offers: CreditOffer[] = [
 
 
 
+
+    
 
     
 
