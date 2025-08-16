@@ -739,9 +739,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '55',
-    provider: 'pngstar.com',
-    title: 'pngstar.com',
-    description: 'Be a star at pngstar.com. Top games, great odds, and big wins.',
+    provider: 'ek9pgk.online',
+    title: 'ek9pgk.online',
+    description: 'Be a star at ek9pgk.online. Top games, great odds, and big wins.',
     type: 'Business Loan',
     promoLength: '1 Year',
     termsAndConditions: 'Flexible repayment options for growing businesses.',
@@ -869,3 +869,6 @@ export const offers: CreditOffer[] = [
 
 
 
+
+
+    
