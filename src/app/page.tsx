@@ -23,6 +23,8 @@ import {
 import OfferCard from '@/components/offer-card';
 import OfferDetailsModal from '@/components/offer-details-modal';
 import SavedOffersSheet from '@/components/saved-offers-sheet';
+import Image from 'next/image';
+import { Play } from 'lucide-react';
 
 const offerTypeIcons: Record<CreditOffer['type'], React.ElementType> = {
   'Personal Loan': User,
@@ -86,6 +88,36 @@ export default function PngCreditProPage() {
           <p className="text-muted-foreground text-xl font-body">
             Discover elite no-deposit credit opportunities in Papua New Guinea.
           </p>
+        </section>
+
+        <section className="mb-12">
+            <div className="relative rounded-xl overflow-hidden group w-full aspect-[16/6]">
+                <Image
+                    src="https://placehold.co/1200x400.png"
+                    alt="Featured Offer"
+                    layout="fill"
+                    objectFit="cover"
+                    className="transition-transform duration-500 group-hover:scale-110"
+                    data-ai-hint="video game splash art"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"/>
+                <div className="absolute inset-0 p-8 md:p-12 flex flex-col justify-end">
+                    <h3 className="text-3xl md:text-4xl font-bold font-headline text-white drop-shadow-lg">Kina Bank</h3>
+                    <p className="text-lg text-white/90 max-w-2xl mt-2 drop-shadow-lg">Get a personal loan with zero upfront deposit. Fast approval process.</p>
+                     <div className="mt-4 flex flex-wrap gap-4 items-center">
+                        <div className="inline-flex items-center justify-center rounded-full border-2 border-accent/80 bg-accent/30 text-white px-5 py-2 text-sm font-semibold backdrop-blur-sm">
+                            New Register Free K88
+                        </div>
+                        <div className="inline-flex items-center justify-center rounded-full border-2 border-primary/80 bg-primary/30 text-white px-5 py-2 text-sm font-semibold backdrop-blur-sm">
+                            Welcome Bonus 200%
+                        </div>
+                        <Button size="lg" className="bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow text-lg py-6 px-8">
+                            <Play className="mr-2 h-5 w-5" />
+                            Play
+                        </Button>
+                    </div>
+                </div>
+            </div>
         </section>
 
         {offers.length > 0 ? (
