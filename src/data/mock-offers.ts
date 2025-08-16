@@ -628,9 +628,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '46',
-    provider: 'pngqqq.com',
-    title: 'pngqqq.com',
-    description: 'Join pngqqq.com for a comprehensive online gaming platform with sports, slots, and live casino, tailored for PNG players.',
+    provider: '1xpng.com',
+    title: '1xpng.com',
+    description: 'Join 1xpng.com for a comprehensive online gaming platform with sports, slots, and live casino, tailored for PNG players.',
     type: 'Personal Loan',
     promoLength: 'Any',
     termsAndConditions: 'Higher credit limit and rewards points. Annual fee applies.',
