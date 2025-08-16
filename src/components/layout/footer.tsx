@@ -5,10 +5,10 @@ import { Briefcase } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 export default function Footer() {
-  const [isClient, setIsClient] = useState(false);
+  const [year, setYear] = useState<number | null>(null);
 
   useEffect(() => {
-    setIsClient(true);
+    setYear(new Date().getFullYear());
   }, []);
 
   return (
@@ -51,7 +51,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-border/40 text-center text-sm text-muted-foreground">
-          <p>&copy; {isClient ? new Date().getFullYear() : ''} PNG Credit Pro. All Rights Reserved.</p>
+          <p>&copy; {year || new Date().getFullYear()} PNG Credit Pro. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
