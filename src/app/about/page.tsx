@@ -1,4 +1,4 @@
-import { Building, Users, TrendingUp } from 'lucide-react';
+import { Building, Users, TrendingUp, Sparkles } from 'lucide-react';
 import Image from 'next/image';
 
 export default function AboutUsPage() {
@@ -8,9 +8,18 @@ export default function AboutUsPage() {
         <div>
           <h1 className="text-4xl md:text-5xl font-bold font-headline mb-4">About PNG Free Credit</h1>
           <p className="text-lg text-muted-foreground mb-6">
-            We are dedicated to simplifying the financial landscape of Papua New Guinea. Our mission is to empower individuals and businesses by providing clear, accessible, and up-to-date information on credit opportunities.
+            我们致力于简化巴布亚新几内亚的金融格局。我们的使命是通过提供清晰、易于获取和最新的信贷机会信息，为个人和企业赋能。
           </p>
           <div className="space-y-4">
+            <div className="flex items-start gap-4">
+              <div className="p-2 bg-primary/10 text-primary rounded-full">
+                <Sparkles className="h-6 w-6" />
+              </div>
+              <div>
+                <h3 className="font-semibold">Purely PNG: The New Wave of Gaming</h3>
+                <p className="text-muted-foreground">We exclusively feature the latest online games developed in Papua New Guinea. Dive into a unique and authentic gaming adventure with fresh titles you won't find anywhere else.</p>
+              </div>
+            </div>
             <div className="flex items-start gap-4">
               <div className="p-2 bg-primary/10 text-primary rounded-full">
                 <Building className="h-6 w-6" />
