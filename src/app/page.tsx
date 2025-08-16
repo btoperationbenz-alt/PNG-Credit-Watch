@@ -102,16 +102,16 @@ export default function PngCreditProPage() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"/>
                 <div className="absolute inset-0 p-4 md:p-8 flex flex-col justify-end">
-                    <h3 className="text-xl md:text-4xl font-bold font-headline text-white drop-shadow-lg">wintru.bet</h3>
+                    <h3 className="text-lg md:text-4xl font-bold font-headline text-white drop-shadow-lg">wintru.bet</h3>
                     <p className="text-xs md:text-lg text-white/90 max-w-2xl mt-1 md:mt-2 drop-shadow-lg">Step into Papua New Guinea’s ultimate online gaming experience with Wintru.bet! From thrilling casino classics to live sports action, every game brings you closer to exclusive rewards. New members enjoy welcome bonuses, daily prizes, and the chance to climb our VIP ladder. Don’t miss your chance—join Wintru.bet today and play where the excitement never stops!</p>
-                     <div className="mt-3 md:mt-4 flex flex-wrap gap-2 items-center">
+                     <div className="mt-2 md:mt-4 flex flex-wrap gap-2 items-center">
                         <div className="inline-flex items-center justify-center rounded-full border-2 border-accent/80 bg-accent/30 text-white px-3 py-1 text-[10px] md:text-sm font-semibold backdrop-blur-sm">
                             New Register Free K88
                         </div>
                         <div className="inline-flex items-center justify-center rounded-full border-2 border-primary/80 bg-primary/30 text-white px-3 py-1 text-[10px] md:text-sm font-semibold backdrop-blur-sm">
                             Welcome Bonus 200%
                         </div>
-                        <Button size="sm" className="bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow text-sm md:text-lg py-1 px-4 md:py-6 md:px-8">
+                        <Button size="sm" className="bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow text-sm md:text-base py-2 px-4 md:py-3 md:px-6">
                             <Play className="mr-2 h-4 w-4" />
                             Play
                         </Button>
