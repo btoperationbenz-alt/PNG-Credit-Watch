@@ -5,7 +5,7 @@ import Header from '@/components/layout/header';
 import Footer from '@/components/layout/footer';
 
 export const metadata: Metadata = {
-  title: 'PNG Credit Pro',
+  title: 'PNG Free Credit',
   description: 'Find and compare free credit no deposit offers in Papua New Guinea.',
 };
 

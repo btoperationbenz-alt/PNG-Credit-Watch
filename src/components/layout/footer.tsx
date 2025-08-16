@@ -18,7 +18,7 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex items-center gap-2">
               <Briefcase className="h-6 w-6 text-primary" />
-              <span className="font-bold text-lg">PNG Credit Pro</span>
+              <span className="font-bold text-lg">PNG Free Credit</span>
             </Link>
             <p className="text-sm text-muted-foreground">
               Your trusted partner in finding the best credit opportunities in Papua New Guinea.
@@ -51,7 +51,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-border/40 text-center text-sm text-muted-foreground">
-          {year && <p>&copy; {year} PNG Credit Pro. All Rights Reserved.</p>}
+          {year && <p>&copy; {year} PNG Free Credit. All Rights Reserved.</p>}
         </div>
       </div>
     </footer>

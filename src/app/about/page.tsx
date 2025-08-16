@@ -6,7 +6,7 @@ export default function AboutUsPage() {
     <div className="container py-12 md:py-20">
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div>
-          <h1 className="text-4xl md:text-5xl font-bold font-headline mb-4">About PNG Credit Pro</h1>
+          <h1 className="text-4xl md:text-5xl font-bold font-headline mb-4">About PNG Free Credit</h1>
           <p className="text-lg text-muted-foreground mb-6">
             We are dedicated to simplifying the financial landscape of Papua New Guinea. Our mission is to empower individuals and businesses by providing clear, accessible, and up-to-date information on credit opportunities.
           </p>
