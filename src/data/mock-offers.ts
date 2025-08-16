@@ -173,7 +173,9 @@ export const offers: CreditOffer[] = [
     termsAndConditions: 'Loan must be used for residential property improvements. Subject to approval.',
     logoUrl: 'https://placehold.co/600x400.png',
     interestRate: '16.5% p.a.',
-    maxAmount: 'PGK 75,000'
+    maxAmount: 'PGK 75,000',
+    promoText: 'New Register Free K55',
+    welcomeBonusText: 'Welcome Bonus 50%',
   },
   {
     id: '11',
