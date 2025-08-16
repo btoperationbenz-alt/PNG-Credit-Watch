@@ -91,7 +91,7 @@ export default function PngCreditProPage() {
         </section>
 
         <section className="mb-12">
-            <div className="relative rounded-xl overflow-hidden group w-full aspect-[16/9] md:aspect-[16/7]">
+            <div className="relative rounded-xl overflow-hidden group w-full aspect-[16/9] md:aspect-[21/9]">
                 <Image
                     src="https://placehold.co/1200x400.png"
                     alt="Featured Offer"
@@ -102,17 +102,17 @@ export default function PngCreditProPage() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"/>
                 <div className="absolute inset-0 p-4 md:p-8 flex flex-col justify-end">
-                    <h3 className="text-2xl md:text-4xl font-bold font-headline text-white drop-shadow-lg">wintru.bet</h3>
-                    <p className="text-xs md:text-lg text-white/90 max-w-2xl mt-1 md:mt-2 drop-shadow-lg">Wintru.bet brings Papua New Guinea the ultimate gaming thrill—slots, sports & rewards. Get welcome bonuses, daily prizes & climb VIP ranks. Play now, fun awaits!</p>
+                    <h3 className="text-xl md:text-4xl font-bold font-headline text-white drop-shadow-lg">wintru.bet</h3>
+                    <p className="text-xs md:text-base text-white/90 max-w-2xl mt-1 md:mt-2 drop-shadow-lg">Wintru.bet brings Papua New Guinea the ultimate gaming thrill—slots, sports & rewards. Get welcome bonuses, daily prizes & climb VIP ranks. Play now, fun awaits!</p>
                      <div className="mt-4 flex flex-wrap gap-2 items-center">
-                        <div className="inline-flex items-center justify-center rounded-full border-2 border-accent/80 bg-accent/30 text-white px-3 py-1 text-xs md:text-sm font-semibold backdrop-blur-sm">
+                        <div className="inline-flex items-center justify-center rounded-full border border-accent/80 bg-accent/30 text-white px-2 py-1 text-[10px] md:text-sm font-semibold backdrop-blur-sm">
                             New Register Free K88
                         </div>
-                        <div className="inline-flex items-center justify-center rounded-full border-2 border-primary/80 bg-primary/30 text-white px-3 py-1 text-xs md:text-sm font-semibold backdrop-blur-sm">
+                        <div className="inline-flex items-center justify-center rounded-full border border-primary/80 bg-primary/30 text-white px-2 py-1 text-[10px] md:text-sm font-semibold backdrop-blur-sm">
                             Welcome Bonus 200%
                         </div>
-                        <Button size="sm" className="bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow text-sm md:text-base py-2 px-4 md:py-3 md:px-6">
-                            <Play className="mr-2 h-4 w-4" />
+                        <Button size="sm" className="bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow text-xs md:text-base h-8 md:h-10 px-3 md:px-6">
+                            <Play className="mr-1 md:mr-2 h-3 w-3 md:h-4 md:w-4" />
                             Play
                         </Button>
                     </div>
