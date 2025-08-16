@@ -120,7 +120,9 @@ export const offers: CreditOffer[] = [
 - A 3-month interest-only period is available at the start of the loan.
 - Applicants must provide a detailed project proposal.`,
     logoUrl: 'https://placehold.co/600x400.png',
-    maxAmount: 'PGK 200,000'
+    maxAmount: 'PGK 200,000',
+    promoText: 'New Register Free K58',
+    welcomeBonusText: 'Welcome Bonus 100%',
   },
   {
     id: '7',
