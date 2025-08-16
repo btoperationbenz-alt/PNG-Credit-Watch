@@ -407,9 +407,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '29',
-    provider: 'jdb9.com',
-    title: 'jdb9.com',
-    description: 'jdb9.com offers an extensive library of online slots and casino games, providing endless fun and big win potential in PNG.',
+    provider: 'clubpng.com',
+    title: 'clubpng.com',
+    description: 'clubpng.com is the ultimate gaming destination in PNG, offering exclusive access to a wide variety of slots, sports betting, and live casino action.',
     type: 'Credit Card',
     promoLength: '6 Months',
     termsAndConditions: 'Special introductory rate for the first 3 months. For new and used vehicles.',
@@ -696,4 +696,5 @@ export const offers: CreditOffer[] = [
     
 
     
+
 
