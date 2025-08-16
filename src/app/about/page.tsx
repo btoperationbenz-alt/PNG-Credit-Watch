@@ -44,9 +44,8 @@ export default function AboutUsPage() {
            <Image 
             src="https://placehold.co/600x800.png"
             alt="Our Team"
-            layout="fill"
-            objectFit="cover"
-            className="transition-transform duration-500 hover:scale-105"
+            fill
+            className="object-cover transition-transform duration-500 hover:scale-105"
             data-ai-hint="corporate team meeting"
           />
         </div>
