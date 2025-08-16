@@ -51,7 +51,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-border/40 text-center text-sm text-muted-foreground">
-          <p>&copy; {year || new Date().getFullYear()} PNG Credit Pro. All Rights Reserved.</p>
+          {year && <p>&copy; {year} PNG Credit Pro. All Rights Reserved.</p>}
         </div>
       </div>
     </footer>
