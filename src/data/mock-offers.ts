@@ -24,9 +24,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '2',
-    provider: 'BSP Financial Group',
+    provider: 'soo88.club',
     title: 'soo88.club',
-    description: 'Your first credit card with no annual fee for the first year.',
+    description: 'soo88.club offers a premier online gaming experience in Papua New Guinea, with a wide array of exciting slots and live casino games. Join now for top-tier entertainment!',
     type: 'Credit Card',
     promoLength: '1 Year',
     termsAndConditions: `This offer is exclusively for first-time credit card holders with BSP.
