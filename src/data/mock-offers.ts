@@ -734,8 +734,8 @@ export const offers: CreditOffer[] = [
     promoLength: '6 Months',
     termsAndConditions: 'Earn cashback on all your purchases for the first 6 months.',
     logoUrl: 'https://placehold.co/600x400.png',
-    promoText: 'New Register Free K77',
-    welcomeBonusText: 'Welcome Bonus 100%',
+    promoText: 'New Register Free K99',
+    welcomeBonusText: 'Welcome Bonus 50%',
   },
   {
     id: '55',
@@ -858,6 +858,7 @@ export const offers: CreditOffer[] = [
     welcomeBonusText: 'Welcome Bonus 80%',
   },
 ];
+
 
 
 
