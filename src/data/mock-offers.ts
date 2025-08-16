@@ -140,9 +140,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '8',
-    provider: 'pgg.bet',
-    title: 'pgg.bet',
-    description: 'pgg.bet brings you the best in online entertainment with a massive collection of slot games and thrilling jackpots.',
+    provider: 'playpgk.net',
+    title: 'playpgk.net',
+    description: 'playpgk.net is your top choice for online gaming in PNG, featuring a massive selection of slots, sports betting, and live casino action.',
     type: 'Credit Card',
     promoLength: '1 Year',
     termsAndConditions: 'No annual fee for the first year. Standard interest rates apply.',
