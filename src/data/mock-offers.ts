@@ -147,7 +147,8 @@ export const offers: CreditOffer[] = [
     promoLength: '1 Year',
     termsAndConditions: 'No annual fee for the first year. Standard interest rates apply.',
     logoUrl: 'https://placehold.co/600x400.png',
-    interestRate: '22% p.a.'
+    interestRate: '22% p.a.',
+    promoText: 'New Register Free K38',
   },
   {
     id: '9',
