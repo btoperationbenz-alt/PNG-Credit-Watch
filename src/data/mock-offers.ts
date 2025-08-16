@@ -433,9 +433,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '31',
-    provider: 'jdb10.com',
-    title: 'jdb10.com',
-    description: 'jdb10.com offers an extensive library of online slots and casino games, providing endless fun and big win potential in PNG.',
+    provider: 'funpgk.com',
+    title: 'funpgk.com',
+    description: 'funpgk.com is your premier destination for online gaming in PNG, offering a thrilling variety of slots, sports betting, and live dealer action.',
     type: 'Personal Loan',
     promoLength: 'Any',
     termsAndConditions: 'Special introductory rate for the first 3 months. For new and used vehicles.',
