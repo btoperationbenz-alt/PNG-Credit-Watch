@@ -56,21 +56,10 @@ export default function OfferCard({
          <CardTitle className="text-xl font-bold font-headline mb-1">{offer.title}</CardTitle>
           <CardDescription className="text-muted-foreground text-sm mb-3">{offer.provider}</CardDescription>
         <p className="text-sm text-muted-foreground h-10">{offer.description}</p>
-        <div className="flex flex-wrap gap-2 mt-2">
-            <Badge variant="secondary" className="gap-1.5 pl-2 border-accent/30 bg-accent/10 text-accent-foreground">
-                <TypeIcon className="h-3.5 w-3.5" />
-                {offer.type}
-            </Badge>
-            <Badge variant="secondary" className="gap-1.5 pl-2 border-accent/30 bg-accent/10 text-accent-foreground">
-                <Clock className="h-3.5 w-3.5" />
-                {offer.promoLength}
-            </Badge>
-            {offer.interestRate && (
-                <Badge variant="secondary" className="gap-1.5 pl-2 border-accent/30 bg-accent/10 text-accent-foreground">
-                    <Percent className="h-3.5 w-3.5" />
-                    {offer.interestRate}
-                </Badge>
-            )}
+        <div className="mt-2">
+           <div className="inline-flex items-center justify-center rounded-full border border-accent/50 bg-accent/20 text-accent-foreground px-4 py-1 text-sm font-semibold">
+                New Register Free K88, Welcom Bonus200%
+            </div>
         </div>
       </CardContent>
       <CardFooter className="p-4 pt-0">
