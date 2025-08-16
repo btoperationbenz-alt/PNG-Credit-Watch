@@ -92,41 +92,43 @@ export default function PngCreditProPage() {
         </section>
 
         <section className="mb-12">
-            <div className="relative rounded-xl overflow-hidden group w-full bg-card md:aspect-[21/9]">
-                <Image
-                    src="https://placehold.co/1200x400.png"
-                    alt="Featured Offer"
-                    layout="fill"
-                    objectFit="cover"
-                    className="hidden md:block transition-transform duration-500 group-hover:scale-110"
-                    data-ai-hint="video game splash art"
-                />
-                <Image
-                    src="https://placehold.co/600x400.png"
-                    alt="Featured Offer"
-                    width={600}
-                    height={400}
-                    className="block md:hidden w-full h-auto"
-                    data-ai-hint="video game splash art"
-                />
-                <div className="hidden md:block absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"/>
-                <div className="relative md:absolute inset-0 p-4 md:p-8 flex flex-col justify-end bg-black/50 md:bg-transparent">
-                    <h3 className="text-xl md:text-4xl font-bold font-headline text-white drop-shadow-lg">wintru.bet</h3>
-                    <p className="text-xs md:text-base text-white/90 max-w-2xl mt-1 md:mt-2 drop-shadow-lg">Wintru.bet brings Papua New Guinea the ultimate gaming thrill—slots, sports & rewards. Get welcome bonuses, daily prizes & climb VIP ranks. Play now, fun awaits!</p>
-                     <div className="mt-4 flex flex-wrap gap-2 items-center">
-                        <div className="inline-flex items-center justify-center rounded-full border border-accent/80 bg-accent/30 text-white px-2 py-1 text-[10px] md:text-sm font-semibold backdrop-blur-sm">
-                            New Register Free K88
-                        </div>
-                        <div className="inline-flex items-center justify-center rounded-full border border-primary/80 bg-primary/30 text-white px-2 py-1 text-[10px] md:text-sm font-semibold backdrop-blur-sm">
-                            Welcome Bonus 200%
-                        </div>
-                        <Button size="sm" className="bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow h-auto py-2.5 px-6 md:h-10 md:px-6">
-                            <Play className="mr-1 h-5 w-5 md:mr-2 md:h-4 md:w-4" />
-                            Play
-                        </Button>
-                    </div>
-                </div>
+          <div className="relative rounded-xl overflow-hidden group w-full bg-card md:aspect-[21/9]">
+            <div className="relative aspect-[16/9] md:aspect-auto">
+              <Image
+                src="https://placehold.co/1200x400.png"
+                alt="Featured Offer"
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-110"
+                data-ai-hint="video game splash art"
+              />
             </div>
+            <div className="md:absolute md:inset-0 md:bg-gradient-to-t md:from-black/80 md:via-black/40 md:to-transparent" />
+            <div className="relative p-4 md:absolute md:inset-0 md:p-8 flex flex-col justify-end bg-card md:bg-transparent">
+              <h3 className="text-xl md:text-4xl font-bold font-headline text-foreground md:text-white md:drop-shadow-lg">
+                wintru.bet
+              </h3>
+              <p className="text-xs md:text-base text-muted-foreground md:text-white/90 max-w-2xl mt-1 md:mt-2 md:drop-shadow-lg">
+                Wintru.bet brings Papua New Guinea the ultimate gaming
+                thrill—slots, sports & rewards. Get welcome bonuses, daily
+                prizes & climb VIP ranks. Play now, fun awaits!
+              </p>
+              <div className="mt-4 flex flex-wrap gap-2 items-center">
+                <div className="inline-flex items-center justify-center rounded-full border border-accent/80 bg-accent/30 text-white px-2 py-1 text-[10px] md:text-sm font-semibold backdrop-blur-sm">
+                  New Register Free K38
+                </div>
+                <div className="inline-flex items-center justify-center rounded-full border border-primary/80 bg-primary/30 text-white px-2 py-1 text-[10px] md:text-sm font-semibold backdrop-blur-sm">
+                  Welcome Bonus 200%
+                </div>
+                <Button
+                  size="sm"
+                  className="bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow h-auto py-2.5 px-6 md:h-10 md:px-6"
+                >
+                  <Play className="mr-1 h-5 w-5 md:mr-2 md:h-4 md:w-4" />
+                  Play
+                </Button>
+              </div>
+            </div>
+          </div>
         </section>
 
         {offers.length > 0 ? (
