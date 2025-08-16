@@ -39,6 +39,7 @@ export const offers: CreditOffer[] = [
 - Offer cannot be used in conjunction with other promotions.`,
     logoUrl: 'https://placehold.co/600x400.png',
     interestRate: '24% p.a.',
+    promoText: 'New Register Free K38',
   },
   {
     id: '3',
