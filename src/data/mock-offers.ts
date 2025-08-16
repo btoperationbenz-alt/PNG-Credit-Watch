@@ -751,9 +751,9 @@ export const offers: CreditOffer[] = [
   },
   {
     id: '56',
-    provider: 'niuginigame.com',
-    title: 'niuginigame.com',
-    description: 'The best of Niugini gaming is at niuginigame.com. Local favorites and international hits.',
+    provider: 'pgk76.live',
+    title: 'pgk76.live',
+    description: 'The best of Niugini gaming is at pgk76.live. Local favorites and international hits.',
     type: 'Personal Loan',
     promoLength: '3 Months',
     termsAndConditions: 'Low introductory interest rate for the first 3 months.',
@@ -858,17 +858,3 @@ export const offers: CreditOffer[] = [
     welcomeBonusText: 'Welcome Bonus 80%',
   },
 ];
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
