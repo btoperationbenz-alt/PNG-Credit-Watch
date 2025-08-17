@@ -108,19 +108,19 @@ export default function PngCreditProPage() {
           <div className="flex justify-center gap-4 pt-4">
             <Button size="lg" className="bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow">
               <Download className="mr-2 h-5 w-5" />
-              Download Now
+              918KAYA Download Now
             </Button>
             <Button size="lg" className="bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow">
               <Download className="mr-2 h-5 w-5" />
-              Download Now
+              MEGAH5 Download Now
             </Button>
             <Button size="lg" className="bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow">
               <Download className="mr-2 h-5 w-5" />
-              Download Now
+              VPOWER Download Now
             </Button>
             <Button size="lg" className="bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow">
               <Download className="mr-2 h-5 w-5" />
-              Download Now
+              888KING Download Now
             </Button>
           </div>
         </section>
