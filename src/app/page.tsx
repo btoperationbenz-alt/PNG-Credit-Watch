@@ -105,7 +105,7 @@ export default function PngCreditProPage() {
           <p className="text-muted-foreground text-xl font-body">
             Discover elite no-deposit credit opportunities in Papua New Guinea.
           </p>
-          <div className="flex justify-center gap-4 pt-4">
+          <div className="flex flex-wrap justify-center gap-4 pt-4">
             <Button size="lg" className="bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow">
               <Download className="mr-2 h-5 w-5" />
               918KAYA Download Now
