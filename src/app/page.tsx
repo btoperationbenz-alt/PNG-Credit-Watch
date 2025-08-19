@@ -117,10 +117,12 @@ export default function PngCreditProPage() {
                   MEGAH5 Download Now
                 </Button>
             </Link>
-            <Button size="lg" className="bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow">
-              <Download className="mr-2 h-5 w-5" />
-              VPOWER Download Now
-            </Button>
+            <Link href="https://vpower34.com/" target="_blank" rel="noopener noreferrer">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow">
+                <Download className="mr-2 h-5 w-5" />
+                VPOWER Download Now
+              </Button>
+            </Link>
             <Button size="lg" className="bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow">
               <Download className="mr-2 h-5 w-5" />
               888KING Download Now
