@@ -2,6 +2,7 @@
 'use client';
 
 import * as React from 'react';
+import Link from 'next/link';
 import {
   User,
   CreditCard,
@@ -110,10 +111,12 @@ export default function PngCreditProPage() {
               <Download className="mr-2 h-5 w-5" />
               918KAYA Download Now
             </Button>
-            <Button size="lg" className="bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow">
-              <Download className="mr-2 h-5 w-5" />
-              MEGAH5 Download Now
-            </Button>
+            <Link href="https://mgh5.megah5.com" target="_blank" rel="noopener noreferrer">
+                <Button size="lg" className="bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow">
+                  <Download className="mr-2 h-5 w-5" />
+                  MEGAH5 Download Now
+                </Button>
+            </Link>
             <Button size="lg" className="bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow">
               <Download className="mr-2 h-5 w-5" />
               VPOWER Download Now
