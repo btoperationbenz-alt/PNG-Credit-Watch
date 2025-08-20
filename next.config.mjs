@@ -5,14 +5,14 @@ const nextConfig = {
       {
         protocol: 'https',
         hostname: 'cdn-b.heylink.me',
-        port: '',
-        pathname: '/media/sliders/images/**',
       },
       {
         protocol: 'https',
         hostname: 'placehold.co',
-        port: '',
-        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
       },
     ],
   },

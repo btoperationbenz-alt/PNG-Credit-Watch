@@ -51,8 +51,8 @@ export default function AboutUsPage() {
         </div>
         <div className="relative h-80 md:h-full w-full rounded-lg overflow-hidden">
            <Image 
-            src="https://placehold.co/600x800.png"
-            alt="Our Team"
+            src="https://res.cloudinary.com/ddoewyjwc/image/upload/v1755691571/raw_sbprhq.png"
+            alt="About PNG Free Credit"
             fill
             className="object-cover transition-transform duration-500 hover:scale-105"
             data-ai-hint="corporate team meeting"
