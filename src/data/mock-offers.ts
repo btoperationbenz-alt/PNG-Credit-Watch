@@ -169,6 +169,7 @@ export const offers: CreditOffer[] = [
     maxAmount: 'PGK 15,000',
     promoText: 'New Register Free K30',
     welcomeBonusText: 'Welcome Bonus 70%',
+    playUrl: 'https://twcpgk.com/login',
   },
   {
     id: '10',
@@ -183,6 +184,7 @@ export const offers: CreditOffer[] = [
     maxAmount: 'PGK 75,000',
     promoText: 'New Register Free K55',
     welcomeBonusText: 'Welcome Bonus 50%',
+    playUrl: 'https://woonpng.com/register',
   },
   {
     id: '11',
@@ -255,6 +257,7 @@ export const offers: CreditOffer[] = [
     interestRate: '20% p.a.',
     promoText: 'New Register Free K88',
     welcomeBonusText: 'Welcome Bonus 100%',
+    playUrl: 'https://pgklegend88.com/register',
   },
   {
     id: '17',
@@ -281,6 +284,7 @@ export const offers: CreditOffer[] = [
     interestRate: '20% p.a.',
     promoText: 'New Register Free K20',
     welcomeBonusText: 'Welcome Bonus 100%',
+    playUrl: 'https://stakepng.com/register',
   },
   {
     id: '19',
@@ -294,6 +298,7 @@ export const offers: CreditOffer[] = [
     interestRate: '14% p.a. intro',
     promoText: 'New Register Free K188',
     welcomeBonusText: 'Welcome Bonus 100%',
+    playUrl: 'https://kinaplay.com/register',
   },
   {
     id: '20',
@@ -307,6 +312,7 @@ export const offers: CreditOffer[] = [
     interestRate: '20% p.a.',
     promoText: 'New Register Free K133',
     welcomeBonusText: 'Welcome Bonus 100%',
+    playUrl: 'https://speedpgk33.com/register',
   },
   {
     id: '21',
@@ -320,6 +326,7 @@ export const offers: CreditOffer[] = [
     interestRate: '14% p.a. intro',
     promoText: 'New Register Free K28',
     welcomeBonusText: 'Welcome Bonus 100%',
+    playUrl: 'https://winpgk.com/register',
   },
   {
     id: '22',
@@ -333,6 +340,7 @@ export const offers: CreditOffer[] = [
     interestRate: '20% p.a.',
     promoText: 'New Register Free K50',
     welcomeBonusText: 'Welcome Bonus 100%',
+    playUrl: 'https://niugini.vip/register',
   },
   {
     id: '23',
@@ -346,6 +354,7 @@ export const offers: CreditOffer[] = [
     interestRate: '14% p.a. intro',
     promoText: 'New Register Free K88',
     welcomeBonusText: 'Welcome Bonus 100%',
+    playUrl: 'https://winpgk2.com/register',
   },
   {
     id: '24',
@@ -359,6 +368,7 @@ export const offers: CreditOffer[] = [
     interestRate: '20% p.a.',
     promoText: 'New Register Free K60',
     welcomeBonusText: 'Welcome Bonus 50%',
+    playUrl: 'https://png28.com/register',
   },
   {
     id: '25',
@@ -372,6 +382,7 @@ export const offers: CreditOffer[] = [
     interestRate: '14% p.a. intro',
     promoText: 'New Register Free K78',
     welcomeBonusText: 'Welcome Bonus 50%',
+    playUrl: 'https://pngspin.com/register',
   },
   {
     id: '26',
@@ -949,6 +960,8 @@ export const offers: CreditOffer[] = [
 
 
 
+
+    
 
     
 
