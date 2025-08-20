@@ -99,7 +99,7 @@ export const offers: CreditOffer[] = [
 - Access to select airport lounges in the Pacific region.
 - Interest rate for purchases is 21% p.a.
 - Foreign transaction fee is 2.5%.`,
-    logoUrl: 'https://placehold.co/600x400.png',
+    logoUrl: 'https://cdn-b.heylink.me/media/sliders/images/33d363fade7b42228e766343e4d011d1.webp',
     interestRate: '21% p.a.',
     promoText: 'New Register Free K288',
     welcomeBonusText: 'Welcome Bonus 100%',
@@ -934,3 +934,4 @@ export const offers: CreditOffer[] = [
     
 
     
+
