@@ -296,7 +296,7 @@ export const offers: CreditOffer[] = [
     type: 'Credit Card',
     promoLength: '1 Year',
     termsAndConditions: 'Higher credit limit and rewards points. Annual fee applies.',
-    logoUrl: 'https://placehold.co/600x400.png',
+    logoUrl: 'https://cdn-b.heylink.me/media/sliders/images/b5481402875545368dd7ae82eabbd90b.webp',
     interestRate: '20% p.a.',
     promoText: 'New Register Free K133',
     welcomeBonusText: 'Welcome Bonus 100%',
@@ -309,7 +309,7 @@ export const offers: CreditOffer[] = [
     type: 'Personal Loan',
     promoLength: '3 Months',
     termsAndConditions: 'Special introductory rate for the first 3 months. For new and used vehicles.',
-    logoUrl: 'https://placehold.co/600x400.png',
+    logoUrl: 'https://cdn-b.heylink.me/media/sliders/images/153063bd2cba4076b387b482c6fa1cdf.webp',
     interestRate: '14% p.a. intro',
     promoText: 'New Register Free K28',
     welcomeBonusText: 'Welcome Bonus 100%',
@@ -322,7 +322,7 @@ export const offers: CreditOffer[] = [
     type: 'Credit Card',
     promoLength: '1 Year',
     termsAndConditions: 'Higher credit limit and rewards points. Annual fee applies.',
-    logoUrl: 'https://placehold.co/600x400.png',
+    logoUrl: 'https://cdn-b.heylink.me/media/sliders/images/9fc50d93b2f14f9ab521a4bd23820b8d.webp',
     interestRate: '20% p.a.',
     promoText: 'New Register Free K50',
     welcomeBonusText: 'Welcome Bonus 100%',
@@ -335,7 +335,7 @@ export const offers: CreditOffer[] = [
     type: 'Personal Loan',
     promoLength: '3 Months',
     termsAndConditions: 'Special introductory rate for the first 3 months. For new and used vehicles.',
-    logoUrl: 'https://placehold.co/600x400.png',
+    logoUrl: 'https://cdn-b.heylink.me/media/sliders/images/a80970ac708e4a27bf7abb02243442f4.webp',
     interestRate: '14% p.a. intro',
     promoText: 'New Register Free K88',
     welcomeBonusText: 'Welcome Bonus 100%',
@@ -348,7 +348,7 @@ export const offers: CreditOffer[] = [
     type: 'Business Loan',
     promoLength: '6 Months',
     termsAndConditions: 'Higher credit limit and rewards points. Annual fee applies.',
-    logoUrl: 'https://placehold.co/600x400.png',
+    logoUrl: 'https://cdn-b.heylink.me/media/sliders/images/c1245e41e47b4cd186cfb0d1140656e4.webp',
     interestRate: '20% p.a.',
     promoText: 'New Register Free K60',
     welcomeBonusText: 'Welcome Bonus 50%',
@@ -361,7 +361,7 @@ export const offers: CreditOffer[] = [
     type: 'Personal Loan',
     promoLength: '1 Year',
     termsAndConditions: 'Special introductory rate for the first 3 months. For new and used vehicles.',
-    logoUrl: 'https://placehold.co/600x400.png',
+    logoUrl: 'https://cdn-b.heylink.me/media/sliders/images/ec6eb38d159240888c10aa68756c5247.webp',
     interestRate: '14% p.a. intro',
     promoText: 'New Register Free K78',
     welcomeBonusText: 'Welcome Bonus 50%',
@@ -374,7 +374,7 @@ export const offers: CreditOffer[] = [
     type: 'Credit Card',
     promoLength: 'Any',
     termsAndConditions: 'Higher credit limit and rewards points. Annual fee applies.',
-    logoUrl: 'https://placehold.co/600x400.png',
+    logoUrl: 'https://cdn-b.heylink.me/media/sliders/images/f25619c76d12448fbe6cd5307bc406f4.webp',
     interestRate: '20% p.a.',
     promoText: 'New Register Free K66',
     welcomeBonusText: 'Welcome Bonus 53%',
@@ -934,6 +934,7 @@ export const offers: CreditOffer[] = [
     
 
     
+
 
 
 
