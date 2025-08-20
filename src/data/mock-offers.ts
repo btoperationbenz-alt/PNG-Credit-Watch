@@ -38,7 +38,7 @@ export const offers: CreditOffer[] = [
 - Interest rate on purchases is 24% per annum.
 - Applicants must provide proof of steady income.
 - Offer cannot be used in conjunction with other promotions.`,
-    logoUrl: 'https://placehold.co/600x400.png',
+    logoUrl: 'https://cdn-b.heylink.me/media/sliders/images/eb29e829d0e7408a8b93389e63c600d9.webp',
     interestRate: '24% p.a.',
     promoText: 'New Register Free K38',
     welcomeBonusText: 'Welcome Bonus 100%',
@@ -928,5 +928,7 @@ export const offers: CreditOffer[] = [
 
 
 
+
+    
 
     
