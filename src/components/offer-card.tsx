@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import {
@@ -30,9 +31,19 @@ export default function OfferCard({
   onViewDetails,
   typeIcon: TypeIcon = Gamepad2,
 }: OfferCardProps) {
+  const PlayButton = () => (
+    <Button 
+      onClick={!offer.playUrl ? onViewDetails : undefined}
+      className="w-full bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow text-base py-6 md:text-sm"
+    >
+      <Play className="mr-2 h-5 w-5" />
+      Play
+    </Button>
+  );
+
   return (
     <Card className="flex flex-col group overflow-hidden transition-all duration-300 bg-card/80 backdrop-blur-sm rounded-xl hover:shadow-primary/20 hover:shadow-lg hover:-translate-y-1">
-        <div className="relative h-48 w-full">
+        <div className="relative h-48 w-full cursor-pointer" onClick={onViewDetails}>
             <Image
                 src={offer.logoUrl}
                 alt={offer.title}
@@ -44,7 +55,10 @@ export default function OfferCard({
              <Button
               variant="ghost"
               size="icon"
-              onClick={onSaveToggle}
+              onClick={(e) => {
+                e.stopPropagation();
+                onSaveToggle();
+              }}
               aria-label={isSaved ? 'Unsave offer' : 'Save offer'}
               className="absolute top-2 right-2 hover:bg-accent/20 z-10"
             >
@@ -64,10 +78,13 @@ export default function OfferCard({
         </div>
       </CardContent>
       <CardFooter className="p-6 pt-0">
-        <Button onClick={onViewDetails} className="w-full bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow text-base py-6 md:text-sm">
-          <Play className="mr-2 h-5 w-5" />
-          Play
-        </Button>
+        {offer.playUrl ? (
+          <Link href={offer.playUrl} target="_blank" rel="noopener noreferrer" className="w-full">
+            <PlayButton />
+          </Link>
+        ) : (
+          <PlayButton />
+        )}
       </CardFooter>
     </Card>
   );

@@ -22,6 +22,7 @@ export const offers: CreditOffer[] = [
     maxAmount: 'PGK 50,000',
     promoText: 'New Register Free K88',
     welcomeBonusText: 'Welcome Bonus 100%',
+    playUrl: 'https://i1kina.com/register',
   },
   {
     id: '2',
@@ -42,6 +43,7 @@ export const offers: CreditOffer[] = [
     interestRate: '24% p.a.',
     promoText: 'New Register Free K38',
     welcomeBonusText: 'Welcome Bonus 100%',
+    playUrl: 'https://soo88.club/register',
   },
   {
     id: '3',
@@ -62,6 +64,7 @@ export const offers: CreditOffer[] = [
     maxAmount: 'PGK 100,000',
     promoText: 'New Register Free K38',
     welcomeBonusText: 'Welcome Bonus 100%',
+    playUrl: 'https://i1pgk.com/register',
   },
     {
     id: '4',
@@ -83,6 +86,7 @@ export const offers: CreditOffer[] = [
     maxAmount: 'PGK 5,000',
     promoText: 'New Register Free K88',
     welcomeBonusText: 'Welcome Bonus 200%',
+    playUrl: 'https://i1bsp.com/register',
   },
   {
     id: '5',
@@ -103,6 +107,7 @@ export const offers: CreditOffer[] = [
     interestRate: '21% p.a.',
     promoText: 'New Register Free K288',
     welcomeBonusText: 'Welcome Bonus 100%',
+    playUrl: 'https://crownplus.io/register',
   },
   {
     id: '6',
@@ -123,6 +128,7 @@ export const offers: CreditOffer[] = [
     maxAmount: 'PGK 200,000',
     promoText: 'New Register Free K58',
     welcomeBonusText: 'Welcome Bonus 100%',
+    playUrl: 'https://pngspin7.com/register',
   },
   {
     id: '7',
@@ -137,6 +143,7 @@ export const offers: CreditOffer[] = [
     maxAmount: 'PGK 30,000',
     promoText: 'New Register Free K68',
     welcomeBonusText: 'Welcome Bonus 100%',
+    playUrl: 'https://pgk8.online/register',
   },
   {
     id: '8',

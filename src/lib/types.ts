@@ -11,4 +11,5 @@ export type CreditOffer = {
   maxAmount?: string;
   promoText?: string;
   welcomeBonusText?: string;
+  playUrl?: string;
 };
