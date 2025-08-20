@@ -142,7 +142,7 @@ export default function PngCreditProPage() {
                 alt="Featured Offer"
                 width={600}
                 height={400}
-                className="object-cover w-full h-auto"
+                className="object-contain w-full h-auto"
                 data-ai-hint="video game splash art"
               />
             </div>
@@ -151,7 +151,7 @@ export default function PngCreditProPage() {
                     src="https://res.cloudinary.com/ddoewyjwc/image/upload/v1755693944/image_2025-08-14_15-01-25_bugg3m.png"
                     alt="Featured Offer"
                     fill
-                    className="object-cover transition-transform duration-500 group-hover:scale-110"
+                    className="object-contain transition-transform duration-500 group-hover:scale-110"
                     data-ai-hint="video game splash art"
                 />
                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
