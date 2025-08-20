@@ -119,7 +119,7 @@ export const offers: CreditOffer[] = [
 - Repayment schedule is flexible and can be aligned with harvest or production cycles.
 - A 3-month interest-only period is available at the start of the loan.
 - Applicants must provide a detailed project proposal.`,
-    logoUrl: 'https://placehold.co/600x400.png',
+    logoUrl: 'https://cdn-b.heylink.me/media/sliders/images/63ba8821c68943b3b521bd151d4fb83b.webp',
     maxAmount: 'PGK 200,000',
     promoText: 'New Register Free K58',
     welcomeBonusText: 'Welcome Bonus 100%',
@@ -934,4 +934,5 @@ export const offers: CreditOffer[] = [
     
 
     
+
 
