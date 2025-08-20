@@ -146,7 +146,7 @@ export const offers: CreditOffer[] = [
     type: 'Credit Card',
     promoLength: '1 Year',
     termsAndConditions: 'No annual fee for the first year. Standard interest rates apply.',
-    logoUrl: 'https://placehold.co/600x400.png',
+    logoUrl: 'https://cdn-b.heylink.me/media/sliders/images/1abfd75748464ccdaff634b69005f9c3.webp',
     interestRate: '22% p.a.',
     promoText: 'New Register Free K38',
   },
@@ -934,6 +934,7 @@ export const offers: CreditOffer[] = [
     
 
     
+
 
 
 
