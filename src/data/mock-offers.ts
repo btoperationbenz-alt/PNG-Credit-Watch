@@ -57,7 +57,7 @@ export const offers: CreditOffer[] = [
 4. Interest Rate: Introductory rate of 9% p.a. for the first 6 months. Standard business loan rates apply thereafter.
 5. Security: While no cash deposit is required, a director's guarantee may be necessary.
 6. Documentation: Applicants must submit a business plan, financial statements (if available), and company registration documents.`,
-    logoUrl: 'https://placehold.co/600x400.png',
+    logoUrl: 'https://cdn-b.heylink.me/media/sliders/images/f6770c30078f4888aba327ed51a15662.webp',
     interestRate: '9% intro rate',
     maxAmount: 'PGK 100,000',
     promoText: 'New Register Free K38',
@@ -928,6 +928,8 @@ export const offers: CreditOffer[] = [
 
 
 
+
+    
 
     
 
