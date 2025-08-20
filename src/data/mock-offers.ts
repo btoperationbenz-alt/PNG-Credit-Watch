@@ -132,7 +132,7 @@ export const offers: CreditOffer[] = [
     type: 'Personal Loan',
     promoLength: 'Any',
     termsAndConditions: 'Standard Westpac personal loan terms apply. Subject to credit check.',
-    logoUrl: 'https://placehold.co/600x400.png',
+    logoUrl: 'https://cdn-b.heylink.me/media/sliders/images/02fcbd3b3aae486e9b249aa85b5f6a52.webp',
     interestRate: '18% p.a.',
     maxAmount: 'PGK 30,000',
     promoText: 'New Register Free K68',
@@ -934,5 +934,6 @@ export const offers: CreditOffer[] = [
     
 
     
+
 
 
