@@ -138,7 +138,7 @@ export default function PngCreditProPage() {
           <div className="relative rounded-xl overflow-hidden group w-full bg-card">
             <div className="block md:hidden">
               <Image
-                src="https://placehold.co/600x400.png"
+                src="https://res.cloudinary.com/ddoewyjwc/image/upload/v1755693944/image_2025-08-14_15-01-25_bugg3m.png"
                 alt="Featured Offer"
                 width={600}
                 height={400}
@@ -148,7 +148,7 @@ export default function PngCreditProPage() {
             </div>
             <div className="hidden md:block md:relative md:aspect-[21/9]">
                 <Image
-                    src="https://placehold.co/1200x400.png"
+                    src="https://res.cloudinary.com/ddoewyjwc/image/upload/v1755693944/image_2025-08-14_15-01-25_bugg3m.png"
                     alt="Featured Offer"
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-110"
