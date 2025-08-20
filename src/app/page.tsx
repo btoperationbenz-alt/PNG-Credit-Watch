@@ -104,7 +104,7 @@ export default function PngCreditProPage() {
             Free Credit No Deposit in Papua New Guinea (2025)
           </h2>
           <p className="text-muted-foreground text-xl font-body">
-            Download the latest PNG Online Casino APK 2025 for Android. Play slots, roulette, baccarat and more with secure and original APK. Best choice for Papua New Guinea players!
+            Discover elite no-deposit credit opportunities in Papua New Guinea.
           </p>
           <div className="flex flex-wrap justify-center gap-4 pt-4">
             <Link href="https://123.889ifun.com/" target="_blank" rel="noopener noreferrer">
@@ -173,13 +173,15 @@ export default function PngCreditProPage() {
                 <div className="inline-flex items-center justify-center rounded-full border border-primary/80 bg-primary/30 text-white px-2 py-1 text-[10px] font-semibold backdrop-blur-sm">
                   Welcome Bonus 200%
                 </div>
-                <Button
-                  size="sm"
-                  className="bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow h-auto py-3 px-6 text-sm"
-                >
-                  <Play className="mr-1 h-5 w-5" />
-                  Play
-                </Button>
+                <Link href="https://wintru.bet/RF_BENZ" target="_blank" rel="noopener noreferrer">
+                  <Button
+                    size="sm"
+                    className="bg-primary hover:bg-primary/90 shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-shadow h-auto py-3 px-6 text-sm"
+                  >
+                    <Play className="mr-1 h-5 w-5" />
+                    Play
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
