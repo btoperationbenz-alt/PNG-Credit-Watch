@@ -54,7 +54,7 @@ export default function AboutUsPage() {
             src="https://res.cloudinary.com/ddoewyjwc/image/upload/v1755691571/raw_sbprhq.png"
             alt="About PNG Free Credit"
             fill
-            className="object-cover transition-transform duration-500 hover:scale-105"
+            className="object-contain transition-transform duration-500 hover:scale-105"
             data-ai-hint="corporate team meeting"
           />
         </div>
