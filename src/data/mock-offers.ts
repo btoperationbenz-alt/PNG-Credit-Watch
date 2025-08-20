@@ -158,7 +158,7 @@ export const offers: CreditOffer[] = [
     type: 'Business Loan',
     promoLength: '6 Months',
     termsAndConditions: 'Designed for micro-enterprises. Simplified application process.',
-    logoUrl: 'https://placehold.co/600x400.png',
+    logoUrl: 'https://cdn-b.heylink.me/media/sliders/images/26f622658dab4e9e869dda74e4ef0dea.webp',
     maxAmount: 'PGK 15,000',
     promoText: 'New Register Free K30',
     welcomeBonusText: 'Welcome Bonus 70%',
@@ -171,7 +171,7 @@ export const offers: CreditOffer[] = [
     type: 'Personal Loan',
     promoLength: 'Any',
     termsAndConditions: 'Loan must be used for residential property improvements. Subject to approval.',
-    logoUrl: 'https://placehold.co/600x400.png',
+    logoUrl: 'https://cdn-b.heylink.me/media/sliders/images/d838203bf8ca4e4c84b4b9ff070e4c0e.webp',
     interestRate: '16.5% p.a.',
     maxAmount: 'PGK 75,000',
     promoText: 'New Register Free K55',
@@ -185,7 +185,7 @@ export const offers: CreditOffer[] = [
     type: 'Credit Card',
     promoLength: 'Any',
     termsAndConditions: 'Attached to a BSP transaction account. Transaction fees apply.',
-    logoUrl: 'https://placehold.co/600x400.png'
+    logoUrl: 'https://cdn-b.heylink.me/media/sliders/images/4a978b0f007649d59bcbe99e2528238c.webp'
   },
   {
     id: '12',
@@ -195,7 +195,7 @@ export const offers: CreditOffer[] = [
     type: 'Business Loan',
     promoLength: 'Any',
     termsAndConditions: 'The financed asset serves as security. Terms up to 5 years.',
-    logoUrl: 'https://placehold.co/600x400.png'
+    logoUrl: 'https://cdn-b.heylink.me/media/sliders/images/042c6d29ef0742d482700dc74a7b9ca3.webp'
   },
   {
     id: '13',
@@ -205,7 +205,7 @@ export const offers: CreditOffer[] = [
     type: 'Personal Loan',
     promoLength: '3 Months',
     termsAndConditions: 'Special introductory rate for the first 3 months. For new and used vehicles.',
-    logoUrl: 'https://placehold.co/600x400.png',
+    logoUrl: 'https://cdn-b.heylink.me/media/sliders/images/5dfebed4cf1340b59f0853b4037c9b6d.webp',
     interestRate: '14% p.a. intro',
     promoText: 'New Register Free K88',
     welcomeBonusText: 'Welcome Bonus 200%',
@@ -934,6 +934,7 @@ export const offers: CreditOffer[] = [
     
 
     
+
 
 
 
