@@ -218,7 +218,7 @@ export const offers: CreditOffer[] = [
     type: 'Credit Card',
     promoLength: '1 Year',
     termsAndConditions: 'Higher credit limit and rewards points. Annual fee applies.',
-    logoUrl: 'https://placehold.co/600x400.png',
+    logoUrl: 'https://cdn-b.heylink.me/media/sliders/images/8db299a3ef874e119e26cd84e3e0ac0a.webp',
     interestRate: '20% p.a.',
     promoText: 'New Register Free K88',
     welcomeBonusText: 'Welcome Bonus 200%',
@@ -231,7 +231,7 @@ export const offers: CreditOffer[] = [
     type: 'Personal Loan',
     promoLength: '3 Months',
     termsAndConditions: 'Special introductory rate for the first 3 months. For new and used vehicles.',
-    logoUrl: 'https://placehold.co/600x400.png',
+    logoUrl: 'https://cdn-b.heylink.me/media/sliders/images/f26e5126b9e44a3d87a61f2a1e96cb75.webp',
     interestRate: '14% p.a. intro',
     promoText: 'New Register Free K88',
     welcomeBonusText: 'Welcome Bonus 200%',
@@ -244,7 +244,7 @@ export const offers: CreditOffer[] = [
     type: 'Credit Card',
     promoLength: '1 Year',
     termsAndConditions: 'Higher credit limit and rewards points. Annual fee applies.',
-    logoUrl: 'https://placehold.co/600x400.png',
+    logoUrl: 'https://cdn-b.heylink.me/media/sliders/images/be008970ede74c1aacdac0c7ebfe1677.webp',
     interestRate: '20% p.a.',
     promoText: 'New Register Free K88',
     welcomeBonusText: 'Welcome Bonus 100%',
@@ -270,7 +270,7 @@ export const offers: CreditOffer[] = [
     type: 'Credit Card',
     promoLength: '1 Year',
     termsAndConditions: 'Higher credit limit and rewards points. Annual fee applies.',
-    logoUrl: 'https://placehold.co/600x400.png',
+    logoUrl: 'https://cdn-b.heylink.me/media/sliders/images/7bca6396920e4d87bc19111abf90706d.webp',
     interestRate: '20% p.a.',
     promoText: 'New Register Free K20',
     welcomeBonusText: 'Welcome Bonus 100%',
@@ -283,7 +283,7 @@ export const offers: CreditOffer[] = [
     type: 'Personal Loan',
     promoLength: '3 Months',
     termsAndConditions: 'Special introductory rate for the first 3 months. For new and used vehicles.',
-    logoUrl: 'https://placehold.co/600x400.png',
+    logoUrl: 'https://cdn-b.heylink.me/media/sliders/images/11d794566595438e835b5c41b68eda34.webp',
     interestRate: '14% p.a. intro',
     promoText: 'New Register Free K188',
     welcomeBonusText: 'Welcome Bonus 100%',
@@ -934,6 +934,7 @@ export const offers: CreditOffer[] = [
     
 
     
+
 
 
 
