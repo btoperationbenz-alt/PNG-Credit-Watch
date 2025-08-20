@@ -1,14 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
   images: {
     remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'cdn-b.heylink.me',
+        port: '',
+        pathname: '/media/sliders/images/**',
+      },
       {
         protocol: 'https',
         hostname: 'placehold.co',
