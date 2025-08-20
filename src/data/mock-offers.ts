@@ -17,7 +17,7 @@ export const offers: CreditOffer[] = [
 6. Fees: An establishment fee of PGK 150 applies. Late payment fees of PGK 50 per instance will be charged.
 7. Credit Check: Applicants are subject to a credit history check. Approval is not guaranteed.
 8. Offer Period: This promotion is valid for applications received before December 31, 2024.`,
-    logoUrl: 'https://placehold.co/600x400.png',
+    logoUrl: 'https://cdn-b.heylink.me/media/sliders/images/4b351142e3e94dc09bab49c108998e36.webp',
     interestRate: '15% p.a.',
     maxAmount: 'PGK 50,000',
     promoText: 'New Register Free K88',
