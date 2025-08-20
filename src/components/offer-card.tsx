@@ -48,7 +48,7 @@ export default function OfferCard({
                 src={offer.logoUrl}
                 alt={offer.title}
                 fill
-                className="object-contain transition-transform duration-500 group-hover:scale-110"
+                className="object-cover transition-transform duration-500 group-hover:scale-110"
                 data-ai-hint="video game fantasy"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-card via-card/50 to-transparent" />
