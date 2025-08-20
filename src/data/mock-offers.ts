@@ -78,7 +78,7 @@ export const offers: CreditOffer[] = [
 - A favorable interest rate of 8% p.a. is applied.
 - A parental or guardian guarantee is required for all applicants under 21.
 - No repayments are required until 6 months after graduation. Interest will continue to accrue during the study period.`,
-    logoUrl: 'https://placehold.co/600x400.png',
+    logoUrl: 'https://cdn-b.heylink.me/media/sliders/images/984a0844d14e40fcad9677417abce01a.webp',
     interestRate: '8% p.a.',
     maxAmount: 'PGK 5,000',
     promoText: 'New Register Free K88',
