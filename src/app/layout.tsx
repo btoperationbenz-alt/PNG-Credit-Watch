@@ -5,8 +5,9 @@ import Header from '@/components/layout/header';
 import Footer from '@/components/layout/footer';
 
 export const metadata: Metadata = {
-  title: 'PNG Free Credit',
-  description: 'Find and compare free credit no deposit offers in Papua New Guinea.',
+  title: 'Free Credit No Deposit in Papua New Guinea (2025)',
+  description: 'Papua New Guinea (2025) guide to “free credit, no deposit”: how it works, wagering rules, key risks, and safer alternatives for PNG consumers.',
+  keywords: 'free credit no deposit,Free spins no deposit,free spins,free spins coin master,png free credit,free credit',
 };
 
 export default function RootLayout({

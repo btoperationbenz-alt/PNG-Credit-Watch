@@ -100,9 +100,9 @@ export default function PngCreditProPage() {
     <div className="flex flex-col min-h-screen bg-background text-foreground selection:bg-primary/40">
       <div className="container py-8">
         <section className="text-center space-y-4 mb-12">
-          <h2 className="text-5xl font-headline font-bold tracking-wider uppercase">
+          <h1 className="text-5xl font-headline font-bold tracking-wider uppercase">
             Free Credit No Deposit in Papua New Guinea (2025)
-          </h2>
+          </h1>
           <p className="text-muted-foreground text-xl font-body">
             Papua New Guinea (2025) guide to “free credit, no deposit”: how it works, wagering rules, key risks, and safer alternatives for PNG consumers.
           </p>
